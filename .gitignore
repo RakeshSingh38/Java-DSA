@@ -1,7 +1,3 @@
 bin
 out
-Java PY/bin
-Java PY/out
-Java PY/*.class
 *.class
-bin/*.class
