@@ -25,10 +25,11 @@ public class Two_pointers {
                 min = arr[i];
             }
 
-            if (arr[i] > max) {
+            if (arr[i] > max) {   
                 max = arr[i];
             }
         }
+        
         //System.out.println(min);
 
         // i need to print it so i will use sop in main function
