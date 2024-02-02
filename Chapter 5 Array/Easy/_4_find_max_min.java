@@ -15,6 +15,7 @@ public class _4_find_max_min {
         // for maximum
         int max = arr[0];        
 
+        
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
                 // for maximum
