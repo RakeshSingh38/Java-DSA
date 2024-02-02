@@ -54,5 +54,4 @@ public class _4_find_max_min {
         }
         return min + max;
     }
-    
 }
