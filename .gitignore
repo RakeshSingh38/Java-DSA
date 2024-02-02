@@ -1,7 +1,5 @@
 bin\
 out\
-bin 
+bin
 out
-Java PY\bin
-Java PY\out
 *.class
