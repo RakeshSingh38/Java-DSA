@@ -1,5 +1,4 @@
-bin\
-out\
 bin
+bin/*.class
 out
 *.class
