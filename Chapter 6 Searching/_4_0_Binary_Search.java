@@ -40,6 +40,7 @@ public class _4_0_Binary_Search {
         return -1;
     }  
 
+    
     public static void printList(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
