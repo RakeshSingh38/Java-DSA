@@ -1,0 +1,8 @@
+<project version="4">
+  <component name="ExcludeFromValidation">
+    <file url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Local vs global/Main.java" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

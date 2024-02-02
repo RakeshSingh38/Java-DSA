@@ -1,0 +1,354 @@
+{
+	"files": [
+		{
+			"path": "Chapter 6 Searching/Q/_1_contains_even_no_of_digits_optimized_code.java",
+			"bookmarks": [
+				{
+					"line": 47,
+					"column": 40,
+					"label": "count digits shortcut"
+				}
+			]
+		},
+		{
+			"path": "Chapter 7 String methods/_9_replace.java",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 58,
+					"label": "Java Strings are immutable"
+				}
+			]
+		},
+		{
+			"path": "Chapter 3 Loops/Q/_5_pattern_Q_space_row.java",
+			"bookmarks": [
+				{
+					"line": 29,
+					"column": 80,
+					"label": "pattern spaces acquired"
+				}
+			]
+		},
+		{
+			"path": "Chapter 5 Array/_2_multi_dimension.java",
+			"bookmarks": [
+				{
+					"line": 28,
+					"column": 21,
+					"label": "To print MultiDimensional Arrays use deepToString"
+				}
+			]
+		},
+		{
+			"path": "Chapter 5 Array/_3_array_basics.java",
+			"bookmarks": [
+				{
+					"line": 18,
+					"column": 61,
+					"label": "stack is use to store primitives while heap is used to store objects and arrays stuff"
+				}
+			]
+		},
+		{
+			"path": "Chapter 3 Loops/_5_forEach.java",
+			"bookmarks": [
+				{
+					"line": 20,
+					"column": 51,
+					"label": "ForEach :    for every items in the cars array, print the items"
+				}
+			]
+		},
+		{
+			"path": "Chapter 3 Loops/_3_1_while_loop_Q.java",
+			"bookmarks": [
+				{
+					"line": 8,
+					"column": 20,
+					"label": "isBlank() ;"
+				},
+				{
+					"line": 14,
+					"column": 20,
+					"label": "isEmpty( ) ;"
+				}
+			]
+		},
+		{
+			"path": "Chapter 5 Array/Q/practise2.java",
+			"bookmarks": [
+				{
+					"line": 9,
+					"column": 68,
+					"label": "to Acess last element of an array use arrayName[arrayName.length - 1]"
+				}
+			]
+		},
+		{
+			"path": "Chapter 5 Array/Q/moveZeroesAtTheEnd.java",
+			"bookmarks": [
+				{
+					"line": 5,
+					"column": 45,
+					"label": "store value of previous array to new array ✅ , best way to solve Questions"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Static_VS_Public.java",
+			"bookmarks": [
+				{
+					"line": 17,
+					"column": 80,
+					"label": "The dot (.) is used to access the object's attributes and methods. ✅"
+				},
+				{
+					"line": 20,
+					"column": 17,
+					"label": "Calling a method in Java"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Non_Acess_Modifiers.java",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 52,
+					"label": "learn about coupling , abstraction , OOPS etc ✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Coupling/Coupling.java",
+			"bookmarks": [
+				{
+					"line": 1,
+					"column": 45,
+					"label": "Coupling = the dependency of one class on the other"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Constructor/test.java",
+			"bookmarks": [
+				{
+					"line": 4,
+					"column": 49,
+					"label": "for refactoring use IntelliJ IDEA"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Static/Friend.java",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 33,
+					"label": "Things an object knows about itself are called   ✅ instance variables"
+				},
+				{
+					"line": 5,
+					"column": 22,
+					"label": "Things an object can do are called   ✅ methods"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Inheritance/Super_Class/Main_for_inheritance_2.java",
+			"bookmarks": [
+				{
+					"line": 22,
+					"column": 46,
+					"label": "Avoid Default"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Inheritance/Super_Class/UIControl.java",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 7,
+					"label": "protected achieved ✅"
+				},
+				{
+					"line": 8,
+					"column": 12,
+					"label": "This keyword achieved ✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Inheritance/Main_for_inheritance_1.java",
+			"bookmarks": [
+				{
+					"line": 69,
+					"column": 19,
+					"label": "toString method is present in print method too ✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Upcasting and Downcasting/UpCasting.java",
+			"bookmarks": [
+				{
+					"line": 10,
+					"column": 52,
+					"label": "Implicit & Explicit conversion  achieved✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 6 Searching/_13_Max_SubArray_Kadanes_algorithm.java",
+			"bookmarks": [
+				{
+					"line": 1,
+					"column": 28,
+					"label": "Kadanes algorithm : make -ve value as 0"
+				}
+			]
+		},
+		{
+			"path": "Java notes.txt",
+			"bookmarks": [
+				{
+					"line": 10,
+					"column": 54,
+					"label": "Vector in C++ is same as ArrayList in Java ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 10 Recursion/_1_Recursion_Basics.java",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 0,
+					"label": "Solve one case and leave rest to recursion ✅"
+				},
+				{
+					"line": 16,
+					"column": 19,
+					"label": "when n becomes 0, the function stops calling itself and starts returning."
+				}
+			]
+		},
+		{
+			"path": "Chapter 6 Searching/_4_2_Celing_Binary_search.java",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 58,
+					"label": "celing means smallest greater number than target ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 6 Searching/_4_3_Floor_Binary_search.java",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 64,
+					"label": "floor means greatest number smaller or equal to target ✅✅"
+				}
+			]
+		},
+		{
+			"path": "java ptr.txt",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 99,
+					"label": "In Binary search use Iterative apporach instead of recursive apporach, as it has good time complexity"
+				},
+				{
+					"line": 5,
+					"column": 103,
+					"label": "Always look the constraints before solving the Question on Leetcode , it hints the answers"
+				}
+			]
+		},
+		{
+			"path": "tempp/temp.java",
+			"bookmarks": [
+				{
+					"line": 5,
+					"column": 25,
+					"label": "Formula to find odd numbers :-   ( n % 2 != 0 )   ✅✅"
+				}
+			]
+		},
+		{
+			"path": "tempp/Capabl Questions/_4_Opposite_of_a_dice.java",
+			"bookmarks": [
+				{
+					"line": 4,
+					"column": 70,
+					"label": "formula for opposite face of a dice is 7 - faceNumber ✅✅"
+				}
+			]
+		},
+		{
+			"path": "tempp/Capabl Questions/_7_FizzBuzz_problem.java",
+			"bookmarks": [
+				{
+					"line": 35,
+					"column": 68,
+					"label": "To find multiple of any number ( i % Number == 0 ) ✅✅✅"
+				}
+			]
+		},
+		{
+			"path": "tempp/Capabl Questions/_10_Vowels_or_Consonants.java",
+			"bookmarks": [
+				{
+					"line": 5,
+					"column": 86,
+					"label": "Vowels are a, e, i, o, u , Consonants are all other alphabets except vowels ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 11 Maths/Easy/_2_Number_of_one_bits.java",
+			"bookmarks": [
+				{
+					"line": 67,
+					"column": 66,
+					"label": "to count trailing zeros we can use Integer.numberOfTrailingZeros(variablename) ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/Practise/_1_listDemo.java",
+			"bookmarks": [
+				{
+					"line": 50,
+					"column": 114,
+					"label": "In list i can't use [ ] ( Subscript operator ) on ArrayList to access the elements ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/_1_Array_List.java",
+			"bookmarks": [
+				{
+					"line": 71,
+					"column": 14,
+					"label": "valueOf method example is : - remove element of type Integer and its value of 7 from the list"
+				}
+			]
+		},
+		{
+			"path": "Chapter 8 Object Oriented Programming/Polymorphism/Polymorphism.java",
+			"bookmarks": [
+				{
+					"line": 8,
+					"column": 13,
+					"label": " extends keyword to inherit attributes and methods from a class. | | implements keyword to inherit from an interface."
+				}
+			]
+		}
+	]
+}

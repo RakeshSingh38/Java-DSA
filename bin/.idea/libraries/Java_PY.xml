@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Java PY">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Chapter 1 Basics" />
+      <root url="file://$PROJECT_DIR$/Chapter 1 Basics/Strings" />
+      <root url="file://$PROJECT_DIR$/Chapter 13" />
+      <root url="file://$PROJECT_DIR$/Chapter 2 conditional operations" />
+      <root url="file://$PROJECT_DIR$/Chapter 2 conditional operations/Q" />
+      <root url="file://$PROJECT_DIR$/Chapter 3 Loops" />
+      <root url="file://$PROJECT_DIR$/Chapter 3 Loops/Q" />
+      <root url="file://$PROJECT_DIR$/Chapter 4 functions" />
+      <root url="file://$PROJECT_DIR$/Chapter 5 Array" />
+      <root url="file://$PROJECT_DIR$/Chapter 5 Array/Q" />
+      <root url="file://$PROJECT_DIR$/Chapter 6 Linear Search" />
+      <root url="file://$PROJECT_DIR$/Chapter 6 Linear Search/Q" />
+      <root url="file://$PROJECT_DIR$/Chapter 7 String methods" />
+      <root url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming" />
+      <root url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Class" />
+      <root url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Static" />
+      <root url="file://$PROJECT_DIR$/Chapter 9 Linked List" />
+      <root url="file://$PROJECT_DIR$/Java Revision/Chapter 1 basics" />
+      <root url="file://$PROJECT_DIR$/Practise" />
+      <root url="file://$PROJECT_DIR$/tempp" />
+    </SOURCES>
+  </library>
+</component>

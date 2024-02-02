@@ -1,0 +1,11 @@
+// imp      if u see similar Q theres a high chance that the Q is same
+
+// r        In Binary search use Iterative apporach instead of recursive apporach, as it has good time complexity 
+//                 
+
+// r         Always look the constraints before solving the Question on Leetcode , it hints the answers
+
+
+
+//  and try to put the same as answer it as previously solved
+Eg 852 == 162          

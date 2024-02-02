@@ -1,0 +1,16 @@
+// imp      In programming we have different programming paradigms
+
+//     such as proceduaral , 
+     ✅  object oriented, 
+        event driver , logic , 
+     ✅   functional
+         etc
+
+✅ = most used
+
+// tip      Vector in C++ is same as ArrayList in Java
+
+// tip   Like ArrayList where the size of array is not fixed and it gets doubled if its nearly full
+
+
+// Monotonic stacks

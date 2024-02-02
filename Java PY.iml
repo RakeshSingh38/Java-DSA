@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/production/Java PY" />
+    <output-test url="file://$MODULE_DIR$/out/test/Java PY" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 1 Basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 3 Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 4 functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 6 Linear Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 7 String methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 9 Linked List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tempp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 2 conditional operations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 5 Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java PY" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Revision" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 3 Loops/Q" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Array of Objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Constructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Coupling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Encapsulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Local vs global" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Overloaded Constructors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Passing objects as arguments" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 6 Searching" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Inheritance" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Inheritance/Super_Class" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Upcasting and Downcasting" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming" />
+    </content>
+    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
