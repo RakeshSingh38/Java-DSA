@@ -13,7 +13,7 @@ public class _4_find_max_min {
         int min = arr[0];
 
         // for maximum
-        int max = arr[0];
+        int max = arr[0];        
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
@@ -53,6 +53,6 @@ public class _4_find_max_min {
             }
         }
         return min + max;
-        
+
     }
 }
