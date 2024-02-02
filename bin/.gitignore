@@ -1,3 +1,10 @@
+bin
+bin/*.class
+out
+*.class
+.class
+bin/.class
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
