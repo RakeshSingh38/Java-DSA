@@ -29,6 +29,7 @@ public class _4_find_max_min {
         }
         //System.out.println(min);
 
+        
         // i need to print it so i will use sop in main function
         //System.out.println(max);
         return min + max;
