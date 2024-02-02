@@ -29,7 +29,6 @@ public class Two_pointers {
                 max = arr[i];
             }
         }
-        
         //System.out.println(min);
 
         // i need to print it so i will use sop in main function
