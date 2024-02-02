@@ -24,6 +24,7 @@ public class _4_find_max_min {
                 min = arr[i];
             }
 
+            
             if (arr[i] > max) {
                 max = arr[i];
             }

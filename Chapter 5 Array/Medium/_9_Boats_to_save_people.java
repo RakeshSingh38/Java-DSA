@@ -18,6 +18,7 @@ public class _9_Boats_to_save_people {
             }
             end--;
         }
+        
         return res;
     }
 }
