@@ -9,7 +9,6 @@ public class _9_ArrayList_part4 {
         ArrayList<String> food = new ArrayList<String>();
         food.add("Chicken");
         food.add("Biryani");
-        
         food.add("Chicken Sharwarma");
 
         // imp      This loop is useful when you only need to access the elements of the ArrayList and don't require the index.
