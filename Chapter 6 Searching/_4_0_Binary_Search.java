@@ -36,9 +36,9 @@ public class _4_0_Binary_Search {
             } else {
                 end = mid - 1;
             }
-        }
+        }   
         return -1;
-    } 
+    }  
 
     public static void printList(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
