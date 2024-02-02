@@ -2,5 +2,4 @@ bin
 bin/*.class
 out
 *.class
-.class
 bin/.class
