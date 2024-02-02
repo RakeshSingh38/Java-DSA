@@ -33,7 +33,7 @@ public class Two_pointers {
 
         // i need to print it so i will use sop in main function
         //System.out.println(max);
-        return min + max;
+        return min + max; 
     }
 
     static int solve(int[] A) {
