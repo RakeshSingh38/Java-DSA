@@ -349,6 +349,16 @@
 					"label": " extends keyword to inherit attributes and methods from a class. | | implements keyword to inherit from an interface."
 				}
 			]
+		},
+		{
+			"path": "Chapter 5 Array/Medium/_9_Boats_to_save_people.java",
+			"bookmarks": [
+				{
+					"line": 11,
+					"column": 39,
+					"label": "Arrays.sort() takes O(NlogN) time ✅✅"
+				}
+			]
 		}
 	]
 }
