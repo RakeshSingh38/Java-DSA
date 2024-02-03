@@ -24,15 +24,17 @@ Buzz
 public class _7_FizzBuzz_problem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number: ");
         int inputN = scanner.nextInt();
         fizzBuzz(inputN);
         scanner.close();
     }
 
-    static void fizzBuzz(int N) {
+    static String fizzBuzz(int N) {
         int a = 3;
         int b = 5;
-        for (int i = 1; i <= N; i++) {
+        int i;
+        for (i = 1; i <= N; i++) {
             // r      To find multiple of any number ( i % Number == 0 )
             if (i % 3 == 0 && i % 5 == 0) {
                 a += 3;
@@ -52,5 +54,6 @@ public class _7_FizzBuzz_problem {
             }
             System.out.println(i);
         }
+        return String.valueOf(i);
     }
 }
