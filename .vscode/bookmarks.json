@@ -204,7 +204,7 @@
 			"path": "Chapter 6 Searching/_13_Max_SubArray_Kadanes_algorithm.java",
 			"bookmarks": [
 				{
-					"line": 1,
+					"line": 3,
 					"column": 28,
 					"label": "Kadanes algorithm : make -ve value as 0"
 				}

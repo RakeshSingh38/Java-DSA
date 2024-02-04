@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//  print using list and string
 public class _Q {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 1 };
