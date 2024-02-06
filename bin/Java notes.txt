@@ -14,3 +14,7 @@
 
 
 // Monotonic stacks
+// imp     Monotonic stack is a stack that is either entirely increasing or entirely decreasing
+           Monotonic stack is used to solve problems related to finding the next ,  nearest greater element or next ,nearest smaller element
+
+// imp      Pen and paper approach is the best tool to solve problems

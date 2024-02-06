@@ -18,7 +18,8 @@
         "Chapter 1 Basics/",
         "Chapter 1 Basics/Strings",
         "Chapter 2",
-        "Chapter 3",
+        "Chapter 3 Loops",
+        "Chapter 3 Loops/Q",
         "Chapter 4",
         "Chapter 5 Array",
         "Chapter 5.1 2D Arrays",
@@ -96,7 +97,7 @@
     ],
     "java.project.outputPath": "bin",
     "C_Cpp.errorSquiggles": "enabled",
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m -Xlog:disable",
     // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
     // "java.debug.settings.onBuildFailureProceed": true
 }
