@@ -5,7 +5,8 @@
 
 // r         Always look the constraints before solving the Question on Leetcode , it hints the answers
 
-
+// r        Dry run the code to understand the flow of the code
+//          Pen and paper apporach is the best 
 
 //  and try to put the same as answer it as previously solved
 Eg 852 == 162          

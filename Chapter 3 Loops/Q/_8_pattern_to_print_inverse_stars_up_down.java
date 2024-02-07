@@ -25,7 +25,7 @@ public class _8_pattern_to_print_inverse_stars_up_down {
             //System.out.println("");
             int j = 1;
             while (j <= star) {
-                System.out.print("*");
+                System.out.print("* ");
                 j++;
             }
             System.out.println("");
