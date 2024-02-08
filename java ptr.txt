@@ -8,5 +8,6 @@
 // r        Dry run the code to understand the flow of the code
 //          Pen and paper apporach is the best way to solve the Q
 
+//          use git show to see the previous commit and see the changes made in the code
 //  and try to put the same as answer it as previously solved
 Eg 852 == 162          

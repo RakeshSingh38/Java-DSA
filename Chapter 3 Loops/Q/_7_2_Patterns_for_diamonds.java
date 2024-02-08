@@ -15,7 +15,6 @@ public class _7_2_Patterns_for_diamonds {
             // fix      i am writing stars = n/2
             //          coz while preparing for next lines 
             //          i have access to i only
-            System.out.println();
             if (i <= n / 2) {
                 stars += 2;
                 spaces--;
@@ -23,6 +22,7 @@ public class _7_2_Patterns_for_diamonds {
                 stars -= 2;
                 spaces++;
             }
+            System.out.println();
         }
     }
 }
