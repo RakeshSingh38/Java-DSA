@@ -359,6 +359,16 @@
 					"label": "Arrays.sort() takes O(NlogN) time ✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 3 Loops/Easy/_1_Numbers_count.java",
+			"bookmarks": [
+				{
+					"line": 3,
+					"column": 84,
+					"label": "//  imp   To count the numbers between any range  we do ( return end - start + 1 )  ✅✅"
+				}
+			]
 		}
 	]
 }
