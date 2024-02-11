@@ -54,7 +54,7 @@ public class Point {
         // anyone can inherit the point class and override the equals method
 
         // error :   showing error hence commenting it out
-        System.out.println("For Car " + point1.equals(new Car()));
+        //System.out.println("For Car " + point1.equals(new Car()));
 
         // Q       its wrong right ?
 

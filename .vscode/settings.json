@@ -52,6 +52,7 @@
         "Chapter 14 Collections Framework",
         "Chapter 14 Collections Framework/Practise",
         "tempp/Capabl Questions",
+        "Prep",
 
 
         // easy medium hard
@@ -91,13 +92,16 @@
         "Chapter 13 Hashing/Easy",
         "Chapter 13 Hashing/Medium",
         "Chapter 13 Hashing/Hard",
+        "Prep/Easy",
+        "Prep/Medium",
+        "Prep/Hard",
         "Practise",
         "tempp",
         ".",
     ],
     "java.project.outputPath": "bin",
     "C_Cpp.errorSquiggles": "enabled",
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m -Xlog:disable",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx16G -Xms100m -Xlog:disable",
     // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
     // "java.debug.settings.onBuildFailureProceed": true
 }

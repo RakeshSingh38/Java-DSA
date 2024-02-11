@@ -1,3 +1,5 @@
+// In hackerRank : Make sure the n is provided as an input using Scanner class
+// and not hard coded
 public class _7_2_Patterns_for_diamonds {
 
     public static void main(String[] args) {
