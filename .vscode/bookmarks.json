@@ -369,6 +369,16 @@
 					"label": "//  imp   To count the numbers between any range  we do ( return end - start + 1 )  ✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 5.1 2D Arrays/_1_Reverse_array.java",
+			"bookmarks": [
+				{
+					"line": 10,
+					"column": 45,
+					"label": "// tip    to print an array from right to left ✅✅✅"
+				}
+			]
 		}
 	]
 }
