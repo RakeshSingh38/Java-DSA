@@ -19,15 +19,31 @@ public class _7_1_pattern_counting_numbers {
             no_of_stars++;
             System.out.println();
         }
-
-        /* 
-        int nst = 3;
-        for (int i = 1; i <= nst; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+        /*        int no_of_stars = 1;
+        int num = 3;
+        int count = 1;
+        int i = 1;
+        int j = 1;
+        while (i <= num) {
+            while (j <= no_of_stars) {
+                System.out.print(count + " ");
+                j++;
+                count++;
             }
+            no_of_stars++;
+            i++;
             System.out.println();
-        }
-         */
+        }*/
     }
+
+    /* 
+    int nst = 3;
+    for (int i = 1; i <= nst; i++) {
+        for (int j = 1; j <= i; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    }
+    */
 }
