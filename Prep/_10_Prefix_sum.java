@@ -8,7 +8,7 @@ public class _10_Prefix_sum {
         System.out.println(Arrays.toString(sum));
 
         System.out.println("\nOptimal approach is ✅✅");
-        int[] optimal = prefixSum_2(arr, arr.length);
+        int[] optimal = prefixSumOptimal(arr);
         System.out.println(Arrays.toString(optimal) + "\n");
     }
 
@@ -32,7 +32,8 @@ public class _10_Prefix_sum {
         return pf;
     }
 
-    static int[] prefixSum_2(int[] arr, int n) {
+    static int[] prefixSumOptimal(int[] arr) {
+        int n = arr.length;
         int[] pf = new int[n];
         pf[0] = arr[0];
         // above can be removed if used tip comment and return arr;
