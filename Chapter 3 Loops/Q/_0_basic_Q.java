@@ -15,7 +15,7 @@ public class _0_basic_Q {
         // print the elements of the array in reverse order using decrementing for loop
 
         for (int i = arr.length - 1; i >= 0; i--) {
-            //System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         // imp     we can reverse the number using for loop and % 10
         // reverse a number using for loop and % 10
@@ -23,10 +23,10 @@ public class _0_basic_Q {
         int lastDigit = 0;
         for (int i = num; i > 0; i = i / 10) {
             lastDigit = i % 10;
-            System.out.print(lastDigit+" ");
+            //System.out.print(lastDigit+" ");
 
         }
         System.out.println();
-        System.out.println(2%10);
+        //System.out.println(2%10);
     }
 }
