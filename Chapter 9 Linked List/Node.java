@@ -104,6 +104,13 @@ class Node {
         System.out.println("\n\nDelete at last\n");
         deleteAtLast(n1);
         printLinkedList(n1);
+        System.out.println("\n\nReverse the list\n");
+        reverseList(n1);
+
+        System.out.println("\n\nDelete middle of linked list\n");
+        deleteMiddleOfLinkedList(n1);
+        printLinkedList(n1);
+        printLinkedList(n1);
     }
 
     static void printLinkedList(Node head) {
@@ -203,7 +210,51 @@ class Node {
         //System.out.println("temp  "+temp.next.next.next);
         //System.out.println(temp.val);
         // this line will change the reference of the second last node to null
-        temp.next = null;  // 60 is deleted
+        temp.next = null; // 60 is deleted
         //printLinkedList(head);
+    }
+
+    static void reverseList(Node head) {
+        Node curr = head;
+        Node prev = null;
+        while (curr != null) {
+            Node currp1 = curr.next;
+            curr.next = prev;
+            prev = curr;
+            System.out.println(prev.val);
+            curr = currp1;
+        }
+        //prev = head;
+        //System.out.println(prev.val);
+        System.out.println("\n" + prev.val);
+        // tip     Sop (head.next.val) or (prev.next.val); both are at last node so it will give null pointer exception
+        printListNode(prev);
+    }
+
+    public static void printListNode(Node head) {
+        Node temp = head;
+        System.out.print("null");
+        while (temp != null) {
+            System.out.print(" -> " + temp.val);
+            temp = temp.next;
+        }
+    }
+
+    public static Node deleteMiddleOfLinkedList(Node head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        Node slow = head;
+        Node fast = head;
+        Node prev = null;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        prev.next = slow.next;
+
+        return head;
+
     }
 }
