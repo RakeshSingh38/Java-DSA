@@ -20,7 +20,6 @@ public class _2_Floyd_cyle_algorithm {
         Node n4 = new Node(4);
         Node n5 = new Node(5);
         Node n6 = new Node(6);
-        Node n7 = new Node(7);
         n1.next = n2;
         // this causes the infinite loop as it keeps calling the same node again and again
         //n2.next = n2;
@@ -55,7 +54,13 @@ public class _2_Floyd_cyle_algorithm {
             // there's a 100% chance that they will meet at some point
             // as the fast pointer is moving 2x the speed of the slow pointer so it will eventually meet the slow pointer
             if (s == f) {
-                return s;
+                f = head;
+                while (f != s) {
+                    //System.out.print(s.next.val + " -> ");
+                    s = s.next;
+                    f = f.next;
+                }
+                return f;  // either return s or f as they are at the same position
             }
         }
         return null;

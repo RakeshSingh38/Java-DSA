@@ -24,7 +24,7 @@ public class _1_Kadane_s_Algorithm {
 
     private static int Kadane_s_Algorithm(int[] arr) {
         int currSum = 0;
-        int maxSum = arr[0];
+        int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             currSum += arr[i];
 

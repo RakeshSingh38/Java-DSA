@@ -23,10 +23,9 @@ public class _0_basic_Q {
         int lastDigit = 0;
         for (int i = num; i > 0; i = i / 10) {
             lastDigit = i % 10;
-            //System.out.print(lastDigit+" ");
+            System.out.print(lastDigit+" ");
 
         }
         System.out.println();
-        //System.out.println(2%10);
     }
 }
