@@ -17,7 +17,10 @@ public class _13_String_Q {
         }
         //System.out.println("h");
         //System.out.println(ch);
+        System.out.println("Toggle characters into lowerCase or UpperCase : ");
         toggle(ch);
+
+        System.out.println("\n\nReversed character array is :");
 
         reverse(ch);
         System.out.println();
@@ -52,7 +55,6 @@ public class _13_String_Q {
         /*for (int i = ch.length - 1; i >= 0; i--) {
             System.out.print((ch[i]) + " ");
         }*/
-        System.out.println("\nReversed character array is :");
 
         System.out.println(Arrays.toString(ch));
         // or 
@@ -88,6 +90,9 @@ public class _13_String_Q {
         }
 
         // r      Our work isn't done yet, we have to print the character array so we have to convert it to string
-        System.out.println(Arrays.toString(ch));
+        //System.out.println(Arrays.toString(ch));
+        for(int i = 0; i < ch.length; i++) {
+            System.out.print(ch[i] + " ");
+        }
     }
 }
