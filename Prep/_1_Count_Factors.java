@@ -6,8 +6,11 @@ public class _1_Count_Factors {
         System.out.print(n + " is ");
         //System.out.println(isPrime(n));
         isPrime(n);
-        System.out.println("\nTotal Factors are ");
-        System.out.print(countFactors(1000000000));
+        System.out.print("\nTotal Factors count of " + n + " is");
+        System.out.print(" -> " + countFactors(24));
+
+        //int ans  = countFactors(24);
+        //System.out.println("\nCount =  " + ans);
         System.out.println("\n");
         //System.out.println(countFactorsWithoutRoot(1000000000));
     }
@@ -16,13 +19,11 @@ public class _1_Count_Factors {
         int count = 0;
         for (int i = 1; i * i <= n;) {
             if (n % i == 0) {
-
                 if (i != n / i) {
                     count += 2;
                 } else {
                     count++;
                 }
-                //System.out.println(prime+" ");
             }
             //System.out.println(prime+" ");
             i++;
