@@ -389,6 +389,16 @@
 					"label": "@SuppressWarnings(\"unused\") to remove unused variables etc Article included ✅✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 10 Recursion/_0_1_Recursion.java",
+			"bookmarks": [
+				{
+					"line": 8,
+					"column": 17,
+					"label": " in arrays i can evaluate expressions  ✅✅✅"
+				}
+			]
 		}
 	]
 }
