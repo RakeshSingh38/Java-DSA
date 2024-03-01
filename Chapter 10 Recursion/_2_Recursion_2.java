@@ -1,7 +1,7 @@
 public class _2_Recursion_2 {
     public static void main(String[] args) {
         //System.out.println(pow(2, 0));
-        System.out.println(powOptimize(1.000, -2147483648));
+        System.out.println(powOptimize(2.000, -2));
     }
 
     //    private static int pow(double a, int n) {
@@ -34,7 +34,7 @@ public class _2_Recursion_2 {
         //}
 
         // To handle case for negative power , integer lowest value is -2^31 so if n>0 and n<-31 then only execute this block for negative power
-        if (n < -31 && n > 0) {
+        if (n < 0 && n >= -31) {
             return 1 / powOptimize(a, -n);
         }
         double temp = powOptimize(a, n / 2);
