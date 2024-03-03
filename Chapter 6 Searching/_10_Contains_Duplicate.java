@@ -15,7 +15,7 @@ public class _10_Contains_Duplicate {
     public static boolean containsDuplicate(int[] nums) {
         //  i sorted the array so that i can reduce the chances of Time limit exceeded
         Arrays.sort(nums);                         //  0 <  5  
-        // r      if there are 2 loops then nums will be i < nums.kength-1 as we are comparing with i+1 
+        // r      if there are 2 loops then nums will be i < nums.kength-1 as we are comparing with i+1 , j will take care of last index so we wont go till last index instead we will go till nums.length-1
         //        so if i < nums.length then i+1 will be out of bound
         for (int i = 1; i < nums.length; i++) {
             // compared with previous if its same return true else i will return false

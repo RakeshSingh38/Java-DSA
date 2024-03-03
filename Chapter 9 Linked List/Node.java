@@ -70,11 +70,12 @@ class Node {
         System.out.println();
         System.out.println();
 
-        System.out.println(n1.val);
-        System.out.println(n1.next.val);
-        System.out.println(n1.next.next.val);
-        System.out.println(n1.next.next.next.val);
-        System.out.println(n1.next.next.next.next.val);
+        System.out.println(n1.val); // 10
+        System.out.println(n1);
+        System.out.println(n1.next.val); // 20
+        System.out.println(n1.next.next.val); // 30
+        System.out.println(n1.next.next.next.val); // 40
+        System.out.println(n1.next.next.next.next.val); // 50
 
         System.out.println("\nn3");
         System.out.println(n1.next.next.val);

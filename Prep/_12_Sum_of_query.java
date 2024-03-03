@@ -3,11 +3,16 @@ public class _12_Sum_of_query {
     public static void main(String[] args) {
         int[] arr = { 4, 1, 6, -2, 7 };
         int[][] queries = { { 0, 4 }, { 1, 3 }, { 2, 4 } };
-        int left = 5;
+        int left = 6;
         if (left != 5) {
+            System.out.println("Practise test ");
             sumInGivenRange(arr, queries);
             sums(arr, queries);
-            sumQuery(arr, queries);
+            System.out.println();
+            System.out.println("Brute forch approach is ");
+            sumQuery_Brute_force(arr, queries);
+            System.out.println();
+            System.out.println("Optimal approach is ");
         }
 
         sumQueryOptimal(arr, queries);
@@ -50,7 +55,7 @@ public class _12_Sum_of_query {
         for (int i = 0; i < queries.length; i++) {
             int sum = 0;
             for (int j = queries[i][0]; j <= queries[i][1]; j++) {
-                sum += arr[j]; // 4+1+6+-2+7
+                sum += arr[j]; // 4+1+6 + (-2) + 7
             }
             System.out.println(sum);
         }
@@ -70,7 +75,7 @@ public class _12_Sum_of_query {
         }
     }
 
-    static void sumQuery(int[] arr, int[][] Query) {
+    static void sumQuery_Brute_force(int[] arr, int[][] Query) {
         /*  // imp    using forEnhanced loop 
         //  here we dont use arr[] use put the i    
         for (int[] i : Query) {
