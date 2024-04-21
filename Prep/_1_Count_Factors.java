@@ -1,3 +1,4 @@
+//import java.util.*;
 
 public class _1_Count_Factors {
     public static void main(String[] args) {
@@ -7,12 +8,19 @@ public class _1_Count_Factors {
         //System.out.println(isPrime(n));
         isPrime(n);
         System.out.print("\nTotal Factors count of " + n + " is");
-        System.out.print(" -> " + countFactors(24));
+        System.out.print(" -> " + countFactors(100));
 
         //int ans  = countFactors(24);
         //System.out.println("\nCount =  " + ans);
         System.out.println("\n");
         //System.out.println(countFactorsWithoutRoot(1000000000));
+
+        /*{
+            String s = 3 > 2 ? ("Hello") : ("Bye");
+            System.out.println(s);
+        }*/
+        String s = "Rakes";
+        System.out.println(s);
     }
 
     static int countFactors(int n) {

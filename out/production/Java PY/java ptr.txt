@@ -5,7 +5,20 @@
 
 // r         Always look the constraints before solving the Question on Leetcode , it hints the answers
 
+// r        Dry run the code to understand the flow of the code
+//          Pen and paper apporach is the best way to solve the Q
 
-
+//          use git show to see the previous commit and see the changes made in the code
 //  and try to put the same as answer it as previously solved
 Eg 852 == 162          
+
+// tip      if u want if and else answer then make a function and get true or false and according to it
+//          return the answer
+        if(isPrime(n)){
+                System.out.println("Prime");
+        }
+        else{
+                System.out.println("Not Prime");
+        }
+        // can be written as
+        System.out.println(isPrime(n)?"Prime":"Not Prime");

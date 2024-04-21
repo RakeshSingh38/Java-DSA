@@ -15,6 +15,6 @@ public class _13_Shadowing {
     static void num(){
         System.out.println(x); 
 
-        // ->     here staic int value will be applied 
+        // ->     here staic int value will be applied i.e ->  line 2
     }
 }

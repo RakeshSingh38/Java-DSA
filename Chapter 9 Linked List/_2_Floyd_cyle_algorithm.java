@@ -29,7 +29,7 @@ public class _2_Floyd_cyle_algorithm {
         n4.next = n5;
         n5.next = n6;
         n6.next = n6;
-        // infinite loop in the linked list why because n2.next = n2
+        // infinite loop in the linked list why because n6.next = n6
         //printLinkedList(n1);
         Node res = detectCycle(n1);
         System.out.println(res.val);

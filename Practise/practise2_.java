@@ -3,19 +3,21 @@ import java.util.Arrays;
 public class practise2_ {
     public static void main(String[] args) {
         //int[] arr = { 4, 6, 2, 3 };
+        @SuppressWarnings("unused")
         int[] arr = { -1, -4, 3, 5, -15, 4 };
 
         //System.out.println(min_Count(arr));
+        @SuppressWarnings("unused")
         int arr2[] = { -1, -4, 3, 5, -15, 4 };
-        System.out.println(goodInteger(arr));
+        //System.out.println(goodInteger(arr));
         //System.out.println(goodInteger_Optimze(arr2));
     }
 
-
-    private static int goodInteger(int[] arr) {
-        // write code for Good integer with 2 for loops with O
-   
-    }
+//    private static int goodInteger(int[] arr) {
+//        // write code for Good integer with 2 for loops with O
+//
+//    }
+@SuppressWarnings("unused")
 
     private static int min_Count(int[] arr) {
         Arrays.sort(arr);
