@@ -3,7 +3,7 @@ import java.util.*;
 public class _5_Rotate_array {
     public static void main(String[] args) {
 
-        int[] arr = { 1 }; 
+        int[] arr = { 1,2,3,4,5,6,7 }; 
         // if input is -5 or -1 only then answer will be same i,e k will be 0 as -5 & 3 = 0
         int k = 3;
         int n = arr.length;
@@ -17,12 +17,14 @@ public class _5_Rotate_array {
         System.out.println(" 0  1  2  3  4  5  6");
         System.out.println(" |  |  |  |  |  |  |");
         System.out.println(Arrays.toString(arr));
+
         // imp      1 > Reverse the whole array
         reverse(arr, 0, n - 1);
         System.out.println("\nAfter reversing the array\n");
         System.out.println(" 0  1  2  3  4  5  6");
         System.out.println(" |  |  |  |  |  |  |");
         System.out.println(Arrays.toString(arr));
+        
         System.out.println();
         // imp      2 > Reverse the 1st part till k 
         reverse(arr, 0, k - 1);

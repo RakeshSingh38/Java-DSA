@@ -3,14 +3,21 @@ public class Human {
     // These are called instance variables because they are created inside a class and are not inside any method
     // These variables are accessible to all the methods inside the class
 
+<<<<<<< HEAD
+    // These variables are also called fields, 
+=======
     // r    These variables are also called fields, 
+>>>>>>> 3a39d25ae9daf9d045983a423d95c960623f3ac6
     // attributes, properties, data members
     String name;
     String gender;
     int age;
     String height;
 
+<<<<<<< HEAD
+=======
     // A constructor’s name must be exactly the same as the name of its class.
+>>>>>>> 3a39d25ae9daf9d045983a423d95c960623f3ac6
     Human(String name, String gender, int age, String height) {
         // Assigning values to the variables declared above
 

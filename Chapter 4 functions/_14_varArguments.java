@@ -1,12 +1,13 @@
 import java.util.Arrays;
-// imp     length is not constant it varies with inputs
+// imp     length is not constant as it varies with inputs
 
 // ->     In javaScript i know it as Spread operator
 public class _14_varArguments {
 
     public static void main(String[] args) {
         heyy(2, 3, 4, 5, 6, 6);
-        heyy(2, 8, "rakesh", "singh");
+        // any number of values can be taken as i am using Variable Arguements i.e -> Spread operator we can say
+        heyy(2, 8, "rakesh", "singh","K","Singh");
     }
 
 
