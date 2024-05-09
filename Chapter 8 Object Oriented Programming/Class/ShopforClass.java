@@ -1,9 +1,10 @@
 
-public class Shop {
+public class ShopforClass {
     String dishName = "Chicken Briyani";
     String taste = "Spicy";
     String type = "non-veg";
     double price = 150;
+
 
     public void customerEats() {
         System.out.println("Customer eats " + dishName);

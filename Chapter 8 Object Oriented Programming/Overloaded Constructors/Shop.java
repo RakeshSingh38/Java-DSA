@@ -3,13 +3,11 @@ public class Shop {
     String dish;
     String drink;
     int price;
-    public String dishName;
-    public String taste;
-    public String type;
 
-    Shop(){
-
+    Shop() {
+        this.shopType = "Restaurant";
     }
+
     Shop(String shopType) {
         this.shopType = shopType;
     }
@@ -32,10 +30,15 @@ public class Shop {
         this.drink = drink;
         this.price = price;
     }
+
+
+
     public void customerEats() {
-        throw new UnsupportedOperationException("Unimplemented method 'customerEats'");
+        System.out.println("Customer eats " + dish);
+            System.out.println("Customer likes " + dish + " taste\nCustomer prefers" + drink);
     }
+
     public void customerPays() {
-        throw new UnsupportedOperationException("Unimplemented method 'customerPays'");
+        System.out.println("customer pays " + price + " rupees");
     }
 }

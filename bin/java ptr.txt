@@ -22,3 +22,9 @@ Eg 852 == 162
         }
         // can be written as
         System.out.println(isPrime(n)?"Prime":"Not Prime");
+
+        // tip     i find out that no matter where the class is written it can be executed till the name matches the file name
+        // as i have 2 files named Shop.java and both are conflicting with each other
+        so i have to change the name of the file to execute the code
+        // i changed the name of the file to ShopforClass.java in Class folder of Chapter 8 Object Oriented Programming
+        // and it worked fine 

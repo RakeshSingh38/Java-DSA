@@ -4,9 +4,6 @@ public class Restraunt {
     String drink;
     int price;
 
-    Restraunt(){
-
-    }
     Restraunt(String shopType) {
         this.shopType = shopType;
     }
