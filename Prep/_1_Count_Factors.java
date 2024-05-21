@@ -3,12 +3,13 @@
 public class _1_Count_Factors {
     public static void main(String[] args) {
         System.out.println();
-        int n = 24;
+        int n = 37;
         System.out.print(n + " is ");
         //System.out.println(isPrime(n));
+        //System.out.println(36%6==0);
         isPrime(n);
         System.out.print("\nTotal Factors count of " + n + " is");
-        System.out.print(" -> " + countFactors(100));
+        //System.out.print(" -> " + countFactors(36));
 
         //int ans  = countFactors(24);
         //System.out.println("\nCount =  " + ans);

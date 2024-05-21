@@ -12,7 +12,7 @@ public class _1_prime_numbers {
         for (int i = 1; i <= n; i++) {
             //System.out.println(i + " " + isPrime(i));
         }
-        //System.out.println(sqrt(1000));
+        System.out.println(sqrt(4)+" square OF NO.");
         System.out.println(1 ^ 1);
         System.out.println(divide(1, 2));
 
