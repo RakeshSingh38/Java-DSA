@@ -48,12 +48,17 @@ public class LinkedList {
     //}
 }*/
 
+/**
+ * InsertAtIndex
+ */
+
+//  Here i have to include all the contents in the class Node as i have to use the Node class in the main method
 class Node {
     int val;
     Node next;
 
-    Node(int v1) {
-        this.val = v1;
+    Node(int v) {
+        this.val = v;
     }
 
     public static void main(String[] args) {
@@ -67,51 +72,51 @@ class Node {
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
+        /*  System.out.println();
         System.out.println();
-        System.out.println();
-
+        
         System.out.println(n1.val); // 10
         System.out.println(n1);
         System.out.println(n1.next.val); // 20
         System.out.println(n1.next.next.val); // 30
         System.out.println(n1.next.next.next.val); // 40
         System.out.println(n1.next.next.next.next.val); // 50
-
+        
         System.out.println("\nn3");
         System.out.println(n1.next.next.val);
         System.out.println();
         System.out.println();
-
+        
         System.out.println(n1.val);
         System.out.println(n1.next.val);
-
+        
         System.out.println();
-        System.out.println((n1.next));
+        System.out.println((n1.next));*/
         System.out.println(System.identityHashCode(n1.next));
         System.out.println("\nOld linked list");
         printLinkedList(n1); // Pass the head node as an argument
 
-        System.out.println("\n\nInsert at start in linked list");
+        /*  System.out.println("\n\nInsert at start in linked list");
         insertAtStart(n1, 60);
-
+        
         //printLinkedList(n1); // Pass the head node as an argument
-
+        
         System.out.println("\n\nInsert at last in linked list");
-        insertAtLast(n1, 60);
+        insertAtLast(n1, 60);*/
 
         System.out.println("\n\nInsert at index---------------------------\n");
         insertAtIndex(n1, 3, 60);
-    
-        System.out.println("\n\nDelete at last\n");
+
+        /* System.out.println("\n\nDelete at last\n");
         deleteAtLast(n1);
         printLinkedList(n1);
         System.out.println("\n\nReverse the list\n");
         reverseList(n1);
-
+        
         System.out.println("\n\nDelete middle of linked list\n");
         deleteMiddleOfLinkedList(n1);
         printLinkedList(n1);
-        printLinkedList(n1);
+        printLinkedList(n1);*/
     }
 
     static void printLinkedList(Node head) {
@@ -172,13 +177,13 @@ class Node {
         //System.out.println(temp.val);
         for (int i = 1; i <= k - 1; i++) {
             temp = temp.next;
-            System.out.println(temp);
-            System.out.println(temp.val);
+            //System.out.println(temp);
+            //System.out.println(temp.val);
         }
-        System.out.println("temp  " + temp);
+        /* System.out.println("temp  " + temp);
         System.out.println(temp.next);
         System.out.println(temp.val); // 30
-        System.out.println(temp.next.val); // 40
+        System.out.println(temp.next.val); // 40*/
         // as we can see the value of temp is at ref3
         // but as soon i do temp.next it will do temp.next which will refer to ref4 as temp is ref3 
         Node temp2 = temp.next;
@@ -186,22 +191,22 @@ class Node {
         // this line is important as it will change the reference of the temp node to the new node
         temp.next = n1;
 
-        System.out.println(n1);
+        /* System.out.println(n1);
         System.out.println(n1.val);
         System.out.println();
         System.out.println("\ntempppp  2");
         System.out.println(temp2.val); // 40
-        System.out.println("\ntempppp  3");
+        System.out.println("\ntempppp  3");*/
 
         // so temp2 is ref4
         n1.next = temp2;
 
-        System.out.println(temp2.val); // 40
+        /* System.out.println(temp2.val); // 40
         System.out.println(temp.next.val); // 60
-        System.out.println("n1 is   " + n1.next.val);
+        System.out.println("n1 is   " + n1.next.val);*/
         System.out.println("Printing the linked list\n");
-        printLinkedList(n1);
-        printListNode(n1);
+        printLinkedList(head);
+        System.out.println("\n\n");
         System.out.println("\n------------------------------ \n");
     }
 
