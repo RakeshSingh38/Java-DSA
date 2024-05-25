@@ -6,12 +6,17 @@ import java.util.*;
 public class _7_Two_sum {
     public static void main(String[] args) {
         int[] arr = { 3, 2, 4 };
+        // returning index 
         int[] ans = twoSums1(arr, 6);
         System.out.println(Arrays.toString(ans));
+
+        // returning values
         int[] res = twoSums3(arr, 6);
         System.out.println(Arrays.toString(res));
     }
 
+    // imp       Time complexity = O(n)
+    // Space complexity = O(n)
     static int[] twoSums1(int[] nums, int target) {
         // ->       One pass HashMap approach ( hashmap approach )
         Map<Integer, Integer> map = new HashMap<>();
@@ -30,7 +35,7 @@ public class _7_Two_sum {
         // ->       Two pass HashMap approach
         /* Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], i);
+            map.put(nums    [i],        i);
             //               ↑          ↑ 
             //             Key and its value
         }
@@ -72,6 +77,10 @@ public class _7_Two_sum {
         //        }
         //    }
         //}
+
+        // imp      Time complexity = O(n^2)
+        // Space complexity = O(1)
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] + arr[j] == target) {
@@ -95,5 +104,3 @@ public class _7_Two_sum {
         return new int[] { -1, -1 };
     }
 }
-
-
