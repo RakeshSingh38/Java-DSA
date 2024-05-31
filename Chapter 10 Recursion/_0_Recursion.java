@@ -5,7 +5,7 @@ public class _0_Recursion {
         //System.out.println(sum);
         @SuppressWarnings("unused")
 
-        int fact = factorial(3);
+        int fact = fact(3);
         @SuppressWarnings("unused")
 
         //System.out.println(fact);
@@ -30,10 +30,12 @@ public class _0_Recursion {
         printNumber(n - 1);
         // once the above lines are executed then the next lines such as sop(n) will be printed
         // this where the recursion stops and hence prevent to call the function again and again
+        //int temp  = factoriall(5);
+        
         System.out.print(n + " ");
     }
 
-    private static int fib(int n) {
+    public static int fib(int n) {
         if (n == 0 || n == 1) {
             return n;
         }
@@ -49,12 +51,21 @@ public class _0_Recursion {
         return temp + n;
     }
 
-    static int factorial(int n) {
+    static int fact(int n) {
 
         if (n == 1)
             return 1;
-        int temp = factorial((n - 1));
+        int temp = fact((n - 1));
 
         return temp * n;
+    }
+
+    static int factoriall(int n) {
+        // using iterative method
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
+        }
+        return fact;
     }
 }

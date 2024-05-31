@@ -409,6 +409,16 @@
 					"label": "to convert a negative number to positive just multiply it by -1 ✅✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 15 Bit Manipulation/_1_Basics.java",
+			"bookmarks": [
+				{
+					"line": 49,
+					"column": 0,
+					"label": "    // tip    To reverse a Integer only"
+				}
+			]
 		}
 	]
 }
