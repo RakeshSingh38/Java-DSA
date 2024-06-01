@@ -1,4 +1,10 @@
 import java.util.Arrays;
+// Leetcode Q - 136 Single Number
+// Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+// ex 1:
+// Input: nums = [2,2,1]
+// Output: 1
 
 public class _2_Single_number_1 {
     public static void main(String[] args) {
