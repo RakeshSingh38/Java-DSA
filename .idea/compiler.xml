@@ -4,6 +4,11 @@
     <option name="DEFAULT_COMPILER" value="Eclipse" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/out" includeSubdirectories="true" />
+      <file url="file://$PROJECT_DIR$/Chapter 9 Linked List/Singly LinkedList/Node.java" />
+      <file url="file://$PROJECT_DIR$/Chapter 9 Linked List/_2_Floyd_cyle_algorithm.java" />
+      <file url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Constructor/Main.java" />
+      <file url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Local vs global/Main.java" />
+      <file url="file://$PROJECT_DIR$/Chapter 8 Object Oriented Programming/Overloaded Constructors/Main.java" />
     </excludeFromCompile>
   </component>
 </project>

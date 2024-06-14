@@ -16,6 +16,7 @@ public class _9_Palindrome_Number {
             // i have to go digit by digit so i will use the last digit
             int lastDigit = temp % 10;
             reverse = reverse * 10 + lastDigit;
+            System.out.println("reverse is " + reverse);
             // once the work of last digit is done i will remove it so that it wont be
             // there in next loop
             temp = temp / 10;

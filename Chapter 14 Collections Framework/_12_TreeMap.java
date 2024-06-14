@@ -13,6 +13,13 @@ public class _12_TreeMap {
         tm.put(3, "Ramesh");
         System.out.println(tm);
 
+        /*
+        Iterator<Map.Entry<Integer, String>> iterator = tm.entrySet().iterator();
+        while(iterator.hasNext()){
+            Entry<Integer, String> entry = iterator.next();
+            System.out.println( entry.getValue());
+        }*/
+
         // imp         mostly we use put and get methods
 
         // it makes use of a tree data structure

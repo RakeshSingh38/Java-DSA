@@ -35,6 +35,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Practise" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 6 Searching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 10 Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 11 Maths" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 12 Algorithms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 13 Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 14 Collections Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 15 Bit Manipulation" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Inheritance" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Inheritance/Super_Class" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter 8 Object Oriented Programming/Upcasting and Downcasting" />
