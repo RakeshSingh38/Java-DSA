@@ -3,3 +3,4 @@ bin/*.class
 out
 *.class
 bin/.class
+.idea
