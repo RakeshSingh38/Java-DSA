@@ -6,7 +6,7 @@ class OuterClass {
     }
 }
 
-public class StaticInnerClass {
+public class StaticInnerClass {w
     public static void main(String[] args) {
         var myOuter = new OuterClass();
         var myInner = new OuterClass.InnerClass();
