@@ -17,13 +17,14 @@ public class _1_Couting_bits {
         int mask = 0b00001111;
 
         // Apply the mask using bitwise AND
+        @SuppressWarnings("unused")
         int result = originalNumber & mask;
 
         // Display the results
         //System.out.println("Original Number: " + Integer.toBinaryString(originalNumber));
         //System.out.println("Mask:             " + Integer.toBinaryString(mask));
         //System.out.println("Result:           " + Integer.toBinaryString(result) + " (Decimal: " + result + ")");
-
+        @SuppressWarnings("unused")
         int i =7;
         System.out.println(1<<5);
         System.out.println();

@@ -7,6 +7,7 @@ public class _2_GCD {
         int ans = recursiveGCD(34, 24);
         System.out.println(ans);
     }
+    @SuppressWarnings("unused")
 
     private static void gcd(int a, int b) {
         if (a < 0)
