@@ -419,6 +419,81 @@
 					"label": "    // tip    To reverse a Integer only"
 				}
 			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/Vehicle abstract class/Vehicle.java",
+			"bookmarks": [
+				{
+					"line": 1,
+					"column": 25,
+					"label": "Abstract class in Java"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/Vehicle abstract class/InterFace.java",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 12,
+					"label": "Interface in java"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/_15_Lambda_Expressions.java",
+			"bookmarks": [
+				{
+					"line": 20,
+					"column": 25,
+					"label": "No parameter Lambda Expression ✅✅✅"
+				},
+				{
+					"line": 24,
+					"column": 62,
+					"label": "Single parameter Lambda Expression ✅✅✅"
+				},
+				{
+					"line": 29,
+					"column": 21,
+					"label": "Multiple parameter Lambda Expression ✅✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/_16_Method_reference_using_Static_method.java",
+			"bookmarks": [
+				{
+					"line": 6,
+					"column": 29,
+					"label": "we cannot give alias to class names ✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 14 Collections Framework/Qq.java",
+			"bookmarks": [
+				{
+					"line": 18,
+					"column": 20,
+					"label": "To Check Data type ✅"
+				}
+			]
+		},
+		{
+			"path": "Practise/_10_ASCII_Values.java",
+			"bookmarks": [
+				{
+					"line": 6,
+					"column": 11,
+					"label": "Lower Case ASCII values start from 97 to 122 ✅✅✅"
+				},
+				{
+					"line": 13,
+					"column": 54,
+					"label": "Upper Case ASCII values start from 65 to 90 ✅✅✅"
+				}
+			]
 		}
 	]
 }
