@@ -1,8 +1,3 @@
-import java.util.Arrays;
-
-/**
- * _9_Transpose_matrix
- */
 public class _9_Transpose_matrix {
 
     public static void main(String[] args) {
@@ -10,14 +5,15 @@ public class _9_Transpose_matrix {
                 { 4, 5, 6 },
                 { 7, 8, 9 }
         };
-        System.out.println(Arrays.deepToString(transpose(arr)));
+        //System.out.println(Arrays.deepToString((arr)));
+        //transpose(arr);
+        //System.out.println(Arrays.deepToString(transpose(arr)));
+        transpose2(arr.length, arr);
     }
 
     static int[][] transpose(int[][] arr) {
-        int n = arr.length;
-        int m = arr[0].length;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 // transpose of 2D array is
                 System.out.print(arr[j][i] + " ");
             }
@@ -38,6 +34,15 @@ public class _9_Transpose_matrix {
         //return temp;
     }
 
+    public static void transpose2(int n, int arr[][]) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                // transpose of 2D array is
+                System.out.print(arr[j][i] + " ");
+            }
+            System.out.println();
+        }
+    }
     /* 
     for (int cols = 0; cols < arr[0].length; cols++) {
     

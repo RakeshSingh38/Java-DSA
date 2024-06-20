@@ -1,6 +1,7 @@
 // LeetCode Q 54. Spiral Matrix
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class _4_Spiral_Matrix {
@@ -10,7 +11,7 @@ public class _4_Spiral_Matrix {
                 { 4, 5, 6 },
                 { 7, 8, 9 }
         };
-        //System.out.println(Arrays.deepToString(arr));
+        System.out.println(Arrays.deepToString(arr));
         System.out.println(spiral(arr));
         //   [1,2,3,6,9,8,7,4,5]}
 
