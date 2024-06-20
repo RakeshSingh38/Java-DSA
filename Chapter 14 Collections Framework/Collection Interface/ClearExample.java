@@ -6,6 +6,7 @@ public class ClearExample {
         collection.add("Apple");
         collection.add("Banana");
         collection.clear();
+        // Vehicle.java
         System.out.println(collection); // Output: []
     }
 }
