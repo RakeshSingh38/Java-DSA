@@ -42,12 +42,25 @@ public class _7_Sum_of_upper_and_lower_matrix {
 
         System.out.println("for function");
         ArrayList<Integer> arr2 = sumTriangles(arr, arr.length);
+        // if i wan to print it using for loop
         for (int i = 0; i < arr2.size(); i++) {
             System.out.println(arr2.get(i));
         }
-
+        //or above code can also be written as 
+        
+        for (Integer i : arr2) {
+            System.out.println(i);
+        }
+        
         //System.out.println(sumLower+sumUpper);
         //System.out.println(list.toString());
+
+        // tip    Jaisa input function ka hai waisa hi output hoga
+        //        as is the input so the is the output
+        ArrayList<Integer> sum = sumTriangles2(arr, arr.length);
+
+        System.out.println("\nMore readable");
+        System.out.println(sum);
 
     }
 
@@ -74,6 +87,28 @@ public class _7_Sum_of_upper_and_lower_matrix {
 
     }
 
+    // r        more readable
+    static ArrayList<Integer> sumTriangles2(int matrix[][], int n) {
+        ArrayList<Integer> arr = new ArrayList<>();
+        int upperTri = 0;
+        int lowerTri = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (j >= i) {
+                    upperTri += matrix[i][j];
+                }
+                if (j <= i) {
+                    lowerTri += matrix[i][j];
+                }
+            }
+        }
+
+        arr.add(upperTri);
+        arr.add(lowerTri);
+
+        return arr;
+    }
     /* 
     
     using a single loop!

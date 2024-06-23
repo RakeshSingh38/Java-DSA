@@ -441,26 +441,6 @@
 			]
 		},
 		{
-			"path": "Chapter 14 Collections Framework/_15_Lambda_Expressions.java",
-			"bookmarks": [
-				{
-					"line": 20,
-					"column": 25,
-					"label": "No parameter Lambda Expression ✅✅✅"
-				},
-				{
-					"line": 24,
-					"column": 62,
-					"label": "Single parameter Lambda Expression ✅✅✅"
-				},
-				{
-					"line": 29,
-					"column": 21,
-					"label": "Multiple parameter Lambda Expression ✅✅✅"
-				}
-			]
-		},
-		{
 			"path": "Chapter 14 Collections Framework/_16_Method_reference_using_Static_method.java",
 			"bookmarks": [
 				{
