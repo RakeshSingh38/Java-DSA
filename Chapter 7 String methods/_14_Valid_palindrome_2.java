@@ -7,7 +7,7 @@
 //url : https://leetcode.com/problems/valid-palindrome-ii/
 
 
-public class _14_Valid_palindrome {
+public class _14_Valid_palindrome_2 {
     public static void main(String[] args) {
         String str = "abca";
 

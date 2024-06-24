@@ -1,3 +1,5 @@
+// Scratch implementation of stack in java using array
+
 public class StackArray {
     private int[] stack;
     private int top;

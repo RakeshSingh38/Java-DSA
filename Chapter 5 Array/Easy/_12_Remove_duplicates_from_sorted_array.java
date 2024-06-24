@@ -31,7 +31,7 @@ public class _12_Remove_duplicates_from_sorted_array {
 
         // Return the new length of the modified array
         return map.size();
-    }           // ok so this isnt so this
+    } // ok so this isnt so this
 
     public static int removeDuplicatesOriginal(int[] arr) {
         int index = 1;

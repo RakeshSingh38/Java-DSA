@@ -474,6 +474,16 @@
 					"label": "Upper Case ASCII values start from 65 to 90 ✅✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 9 Stack/StackArray.java",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 3,
+					"label": "Scratch implementation of stack in java using array"
+				}
+			]
 		}
 	]
 }

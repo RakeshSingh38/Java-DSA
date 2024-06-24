@@ -1,3 +1,7 @@
+// Leetcode 125. Valid Palindrome (Easy) 
+// Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+// url : https://leetcode.com/problems/valid-palindrome/
+
 public class _2_Valid_Palindrome {
     public static void main(String[] args) {
         String s = " A man, a plan, a canal: Panama";

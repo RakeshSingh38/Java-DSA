@@ -1,4 +1,14 @@
-/* {
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CheckMemorySettings",
+            "request": "launch",
+            "mainClass": "CheckMemorySettings",
+            "projectName": "Java-DSA_ff0f2900"
+        }
+    ]
+}/* {
     "configurations": [
         {
             "type": "java",
