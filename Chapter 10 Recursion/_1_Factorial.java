@@ -9,7 +9,7 @@ public class _1_Factorial {
         }
         System.out.println("\nSecond Smallest is "+Arrays.toString(ans) );
     }
-
+    
     static int[] SecondlargestElement(int[] a) {
         int largest = a[0];
         int secondLargest = -1;
