@@ -484,6 +484,16 @@
 					"label": "Scratch implementation of stack in java using array"
 				}
 			]
+		},
+		{
+			"path": "Chapter 7 String methods/_17_Ways_to_print_Strings.java",
+			"bookmarks": [
+				{
+					"line": 16,
+					"column": 30,
+					"label": "there are 3 ways to print the char array 1 > new String( ) , Arrays.toString( ) , StringBuilder"
+				}
+			]
 		}
 	]
 }
