@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class _1_Basics {
     public static void main(String[] args) {
@@ -11,8 +12,25 @@ public class _1_Basics {
         //System.out.println(reverse(9534));
         //String n1 = reverseString("Heyy");
         //System.out.println(n1);
-        System.out.println(converttoBinary(13));
+        //System.out.println(converttoBinary(13));
 
+        //System.out.println(reverseNumber(n));
+
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        reverseNumber(N);
+        sc.close();
+    }
+
+    // Q    for a number if it has trailing zeros, then its reverse will not include them. For e.g., reverse of 10400 will be 401 instead of 00401.
+    static int reverseNumber(int n) {
+        int reverse = 0;
+        while (n > 0) {
+            int ld = n % 10;
+            reverse = reverse * 10 + ld;
+            n /= 10;
+        }
+        return reverse;
     }
 
     static String reverse(int s) {
@@ -62,5 +80,25 @@ public class _1_Basics {
             reversed += s.charAt(i);
         }
         return reversed;
+    }
+
+    static int reverseArray(int n) {
+        int reversed = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            reversed = reversed * 10 + digit;
+            n /= 10;
+        }
+        return reversed;
+    }
+    static boolean armStrongNumber(int n){
+        int sum = 0;
+        int temp = n;
+        while(n>0){
+            int ld = n%10;
+            sum = sum + ld*ld*ld;
+            n = n/10;
+        }
+        return sum == temp;
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class _0_Recursion {
     public static void main(String[] args) {
         @SuppressWarnings("unused")
@@ -31,7 +33,7 @@ public class _0_Recursion {
         // once the above lines are executed then the next lines such as sop(n) will be printed
         // this where the recursion stops and hence prevent to call the function again and again
         //int temp  = factoriall(5);
-        
+
         System.out.print(n + " ");
     }
 
@@ -67,5 +69,23 @@ public class _0_Recursion {
             fact = fact * i;
         }
         return fact;
+    }
+
+    public static void sortStack(Stack<Integer> stack) {
+        if(stack.isEmpty()){
+            return;
+        }
+        int temp = stack.pop();
+        sortStack(stack);
+        sortedInsert(stack, temp);
+
+        
+    }
+
+    static void sortedInsert(Stack<Integer> stack, int element) {
+        if (stack.isEmpty() || element > stack.peek()) {
+            stack.push(element);
+            return;
+        }
     }
 }

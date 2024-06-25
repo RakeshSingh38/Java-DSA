@@ -1,5 +1,8 @@
 //import java.util.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class _1_Count_Factors {
     public static void main(String[] args) {
         System.out.println();
@@ -20,8 +23,11 @@ public class _1_Count_Factors {
             String s = 3 > 2 ? ("Hello") : ("Bye");
             System.out.println(s);
         }*/
-        String s = "Rakes";
-        System.out.println(s);
+        //String s = "Rakes";
+        //System.out.println(s);
+
+        List<Integer> list = printDivisors(10);
+        System.out.println(list);
     }
 
     static int countFactors(int n) {
@@ -38,6 +44,16 @@ public class _1_Count_Factors {
             i++;
         }
         return count;
+    }
+
+    public static List<Integer> printDivisors(int n) {
+        List<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                list.add(i);
+            }
+        }
+        return list;
     }
 
     static int countFactorsWithoutRoot(int n) {

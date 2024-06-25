@@ -1,32 +1,32 @@
-{
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CheckMemorySettings",
-            "request": "launch",
-            "mainClass": "CheckMemorySettings",
-            "projectName": "Java-DSA_ff0f2900"
-        }
-    ]
-}/* {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CheckMemorySettings",
-            "request": "launch",
-            "mainClass": "CheckMemorySettings",
-            "projectName": "Java PY_4aae65db"
-        }
-    ]
-}  */ // {
-/* {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch CheckMemorySettings",
-            "request": "launch",
-            "mainClass": "CheckMemorySettings",
-            "vmArgs": "-Xms512m -Xmx2g"
-        }
-    ]
-} */
+// {
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "CheckMemorySettings",
+//             "request": "launch",
+//             "mainClass": "CheckMemorySettings",
+//             "projectName": "Java-DSA_ff0f2900"
+//         }
+//     ]
+// }/* {
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "CheckMemorySettings",
+//             "request": "launch",
+//             "mainClass": "CheckMemorySettings",
+//             "projectName": "Java PY_4aae65db"
+//         }
+//     ]
+// }  */ // {
+// /* {
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "Launch CheckMemorySettings",
+//             "request": "launch",
+//             "mainClass": "CheckMemorySettings",
+//             "vmArgs": "-Xms512m -Xmx2g"
+//         }
+//     ]
+// } */
