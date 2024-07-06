@@ -1,18 +1,16 @@
-import java.util.Scanner;
 
 // To check whether a a number is Odd or Even
-public class temp {
-    static void oddOrEven(int n) {
-        if (n % 2 != 0) {
-            System.out.println("Odd");
-        } else
-            System.out.println("Even");
-    }
+class temp {
+//    javac --release 21 --enable-preview YourClassName.java
+//    java --enable-preview YourClassName
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int character = scanner.nextInt();
-        oddOrEven(character);
-        scanner.close();  
-    }   
+// imp      we can run java program with short main method from Java 21
+    void main() {
+        int num = 21;
+        if (num % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
+    }
 }

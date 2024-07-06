@@ -274,9 +274,14 @@
 			"path": "tempp/temp.java",
 			"bookmarks": [
 				{
-					"line": 5,
+					"line": 0,
 					"column": 25,
 					"label": "Formula to find odd numbers :-   ( n % 2 != 0 )   ✅✅"
+				},
+				{
+					"line": 6,
+					"column": 12,
+					"label": "we can run java program with short main method from Java 21"
 				}
 			]
 		},

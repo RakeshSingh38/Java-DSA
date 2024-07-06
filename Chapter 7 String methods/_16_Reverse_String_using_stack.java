@@ -35,6 +35,7 @@ public class _16_Reverse_String_using_stack {
         //System.out.println(Arrays.toString(str));
     }
 
+    @SuppressWarnings("unused")
     private static void reverseString(char[] str) {
         Stack<Character> stack = new Stack<>();
         for (char i = 0; i < str.length; i++) {
