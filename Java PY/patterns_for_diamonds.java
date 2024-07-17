@@ -1,6 +1,6 @@
 public class patterns_for_diamonds {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 5;
         int spaces = n / 2;
         int stars = 1;
         //System.out.println(2 <= 1);

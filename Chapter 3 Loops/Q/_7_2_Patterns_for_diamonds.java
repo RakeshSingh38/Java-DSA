@@ -13,6 +13,38 @@ public class _7_2_Patterns_for_diamonds {
             for (int k = 1; k <= stars; k++) {
                 System.out.print("*");
             }
+            /* 
+            *  // imp      this gives
+            *           1
+            //         121
+            //        12321
+            //         121
+            //          1
+            for (int k = 1; k <= stars; k++) {
+            if (k <= stars / 2) {
+                    System.out.print(k);
+                } else {
+                    System.out.print(stars - k + 1);
+            
+                }
+            }
+            */
+            /* 
+             *  // imp      this gives
+             *         1
+             //       321
+            //       54321
+            //        321
+            //         1
+            for (int k = 1; k <= stars; k++) {
+                if (k  / 2==stars) {
+                    System.out.print(k);
+                } else {
+                    System.out.print(stars - k + 1);
+                }
+            }
+             */
+
             // to compare i have to use i not the stars
             // fix      i am writing stars = n/2
             //          coz while preparing for next lines 
