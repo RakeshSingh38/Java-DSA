@@ -61,7 +61,8 @@
         "Prep",
         "Prep\\Medium",
         "tempp",
-        "tempp\\Capabl Questions"
+        "tempp\\Capabl Questions",
+        "LeetCode Q"
     ],
     "java.project.outputPath": "bin",
     "C_Cpp.errorSquiggles": "enabled",
