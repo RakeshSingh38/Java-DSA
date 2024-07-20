@@ -3,6 +3,7 @@
 public class _1_1351_count_negative_Number_in_matrix {
     public static void main(String[] args) {
         int[][] grid = new int[][] { { 4, 3, 2, -1 }, { 3, 2, 1, -1 }, { 1, 1, -1, -2 }, { -1, -1, -2, -3 } };
+        //System.out.println(grid[0].length);
         System.out.println("Total count of negatives in matrix is " + negativeNUmber(grid));
     }
 
@@ -11,7 +12,11 @@ public class _1_1351_count_negative_Number_in_matrix {
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
                 if (grid[i][j] < 0) {
-                    count++;
+                    // tip      using this makes the code more efficient
+                    count += grid[i].length - j; // since the array is sorted, as soon as first negative is found, remaining can be counted instantly and no need to traverse any more.
+
+                    // or
+                    //count++;
                 }
             }
         }

@@ -9,7 +9,7 @@ public class _13_Move_Zeros_To_End {
 
     public static void main(String[] args) {
 
-        int[] arr = { 0, 0, 0, 1, 0, 3, 0, 12, 0, 0 };
+        int[] arr = { 1,0,3,2,0 };
         System.out.println(Arrays.toString(arr));
         System.out.println("1st");
         //removeZeroes(arr);
@@ -21,7 +21,7 @@ public class _13_Move_Zeros_To_End {
         //r0(arr);
 
         System.out.println("4th");
-        moveZeroesBetter(arr);
+        r0(arr);
         System.out.println(Arrays.toString(arr));
 
     }

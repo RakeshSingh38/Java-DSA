@@ -29,7 +29,6 @@ class Dog extends Animal {
 }
 
 class Polymorphism {
-
     public static void main(String[] args) {
         var myAnimal = new Animal();
         var myCat = new Cat();
