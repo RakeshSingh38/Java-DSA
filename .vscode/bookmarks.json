@@ -499,6 +499,21 @@
 					"label": "there are 3 ways to print the char array 1 > new String( ) , Arrays.toString( ) , StringBuilder"
 				}
 			]
+		},
+		{
+			"path": "LeetCode Q/_19_GFG_Row_with_max_1s.java",
+			"bookmarks": [
+				{
+					"line": 67,
+					"column": 0,
+					"label": "to find max E of an array using streams  ✅✅✅"
+				},
+				{
+					"line": 77,
+					"column": 0,
+					"label": "Find the maximum value's index in the res array using built-in function ✅✅✅"
+				}
+			]
 		}
 	]
 }

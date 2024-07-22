@@ -10,9 +10,13 @@ public class _7_2_Patterns_for_diamonds {
             for (int j = 1; j <= spaces; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= stars; k++) {
-                System.out.print("*");
-            }
+            for (int j = 1; j <= stars; j++) {
+                if (j <= stars / 2) {
+                        System.out.print(j);
+                    } else {
+                        System.out.print(stars - j + 1);
+                    }
+                }
             /* 
             *  // imp      this gives
             *           1
