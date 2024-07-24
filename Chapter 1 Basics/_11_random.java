@@ -12,13 +12,18 @@ public class _11_random {
         System.out.print("Integer random value is ");
         int x = random.nextInt(7) + 1;
         System.out.println(x);
-        
+
         System.out.print("double random value is ");
-        double y= random.nextDouble();
+        double y = random.nextDouble();
         System.out.println(y);
 
         System.out.print("Boolean random value is ");
-        boolean a=random.nextBoolean();
+        boolean a = random.nextBoolean();
         System.out.println(a);
+
+        System.out.println("char");
+        char ch = (char) (random.nextInt(26) + 'a');
+        System.out.println(ch);
     }
+
 }

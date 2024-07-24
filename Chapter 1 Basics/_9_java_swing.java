@@ -1,19 +1,22 @@
-import javax.swing.JOptionPane;
+import static javax.swing.JOptionPane.*;
 
 public class _9_java_swing {
     public static void main(String[] args) {
 
-        String name = JOptionPane.showInputDialog("Enter your Name");
-        JOptionPane.showMessageDialog(null, "hello " + name);
+        // fix      to avoid writing JOptionPane everytime make it static
+        String name = showInputDialog("Enter your Name");
+        int age = Integer.parseInt(showInputDialog("Enter your age"));
+        String height = (showInputDialog("Enter your Height in cm"));
+        //showMessageDialog(null, "hello " + name);
 
-        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-        JOptionPane.showMessageDialog(null, "you are " + age + " years old");
+        // r        getting all data at once
+        showMessageDialog(null,
+                "Hello u are " + name + "\nYou are " + age + " years old\nYour height is " + height + " cm");
         // ->                                          ↑     ↑
         // there are 2 plus signs so be careful
 
-        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your Height in cm"));
-        JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
-        JOptionPane.showMessageDialog(null, "Thans for Executing the Program \n Have a good day");
+        //showMessageDialog(null, "You are " + height + " cm tall");
+        showMessageDialog(null, "Thans for Executing the Program \n Have a good day");
 
     }
 }

@@ -9,7 +9,6 @@ public class _23_Unique_number_of_elements {
         //    arr[i] = sc.nextInt();
         //}
         System.out.println(unique_No_Of_Elements(arr));
-
         //sc.close();
     }
 
