@@ -504,12 +504,12 @@
 			"path": "LeetCode Q/_19_GFG_Row_with_max_1s.java",
 			"bookmarks": [
 				{
-					"line": 67,
+					"line": 102,
 					"column": 0,
 					"label": "to find max E of an array using streams  ✅✅✅"
 				},
 				{
-					"line": 77,
+					"line": 112,
 					"column": 0,
 					"label": "Find the maximum value's index in the res array using built-in function ✅✅✅"
 				}

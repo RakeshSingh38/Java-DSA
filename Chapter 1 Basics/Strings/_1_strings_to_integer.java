@@ -7,9 +7,15 @@ public class _1_strings_to_integer {
         String s = "60";
         System.out.println(Integer.parseInt(s));
         // tip      to  convert a string to an integer
-
-        //int n=(Integer.parseInt(s) + 4);
-
+        int n = (Integer.parseInt(s) + 4);
+        //System.out.println(s);
+        if (Integer.valueOf(n) instanceof Integer) {
+            System.out.println("The variable 'n' is an Integer");
+        }
+        if (String.valueOf(s) instanceof String) {
+            System.out.println("The variable 's' is an Integer");
+        }
+        System.out.println(n);
         String y = "33";
         System.out.println(y instanceof String);
         //System.out.println(n);
@@ -20,10 +26,15 @@ public class _1_strings_to_integer {
 
         // imp     using regular expressions to convert a string to an integer
         System.out.println();
+        //int temp = 0;
         String num = "age : 23";
-        s = num.replaceAll("\\D", "");
+        String temp = num.replaceAll("\\D", "");
+        if (Integer.valueOf(temp).equals(Integer.parseInt(temp))) {
+            System.out.println("The string 'temp' is an Integer");
+        }
+        System.out.println(temp);
         //System.out.println(num);
-        System.out.println(s);
+        System.out.println(temp instanceof String);
 
     }
 

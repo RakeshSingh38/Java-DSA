@@ -10,10 +10,24 @@ import java.util.*;
 
 public class _19_GFG_Row_with_max_1s {
     public static void main(String[] args) {
-        int[][] arr = { { 0, 0, 0, 0 } };
-        //System.out.println(rowWithMax1s(arr));
+        //int[][] arr = { { 0, 0, 0, 0 } };
+        int[][] arr = {
+                { 0, 0, 0, 1, 1, 1, 1, 1, 1 },
+                { 0, 0, 0, 0, 1, 1, 1, 1, 1 },
+                { 0, 0, 0, 0, 0, 1, 1, 1, 1 }
+        };
 
-        System.out.println(rowMaxTest(arr));
+        //System.out.println(rowMaxTest(arr));
+        //System.out.println(rowMaxTest(arr));
+
+        // optimized solution
+        System.out.println(rowWithMax1s(arr));
+
+        // Better solution
+        //System.out.println(rowMaxTestBetter(arr));
+
+        // test             
+        //System.out.println(RowNoTest(arr));
     }
 
     // r        Optimze Solution
@@ -23,19 +37,40 @@ public class _19_GFG_Row_with_max_1s {
 
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
-            for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] == 1) {
-                    count++;
+            // integrated the // test   solution here
+            if (arr[i][0] == 1) {
+                //return row;
+                return i;
+            } else {
+
+                for (int j = 0; j < arr[i].length; j++) {
+                    if (arr[i][j] == 1) {
+                        count++;
+                    }
                 }
+                if (count > maxCount) {
+                    maxCount = count;
+                    maxRowIndex = i;
+                }
+                // this is the outer loop thats why the value of count is getting all at once
+                //System.out.println(count);
             }
-            if (count > maxCount) {
-                maxCount = count;
-                maxRowIndex = i;
-            }
-            // this is the outer loop thats why the value of count is getting all at once
-            //System.out.println(count);
         }
         return maxRowIndex;
+    }
+
+    // test     
+    static int RowNoTest(int[][] arr) {
+        int row = 0;
+        for (row = 0; row < arr.length; row++) {
+            // here each row is sorted so if i can find first 1in 0th index then we return row
+            //If the first element of the row arr[row][0] is 1, return the current row index row.
+            if (arr[row][0] == 1) {
+                //return row;
+                return row;
+            }
+        }
+        return -1;
     }
 
     static int rowMaxTest(int[][] arr) {
@@ -54,10 +89,10 @@ public class _19_GFG_Row_with_max_1s {
                 //    maxRowIndex = i;
                 //}
             }
-            //if (count > maxCount) {
-            //    maxCount = count;
-            //    maxRowIndex = i;
-            //}
+            if (count > maxCount) {
+                maxCount = count;
+                maxRowIndex = i;
+            }
 
             // this is the outer loop thats why the value of count is getting all at once
             //System.out.println(count);
@@ -71,18 +106,39 @@ public class _19_GFG_Row_with_max_1s {
         // or we can use Collections 
 
         // Find the maximum value's index in the res array using built-in function
-        OptionalInt maxE = Arrays.stream(res).max();
+        /*  OptionalInt maxE = Arrays.stream(res).max();
         if (maxE.isPresent() && maxE.getAsInt() > 0) {
             // Find the index of the maximum value
             int maxIndex = java.util.stream.IntStream.range(0, res.length)
                     .filter(i -> res[i] == maxE.getAsInt())
                     .findFirst()
                     .orElse(-1);
-
+        
             //System.out.println("Max E: " + maxE.getAsInt() + ", Index: " + maxIndex);
             return maxIndex;
+        }*/
+        return maxRowIndex != -1 ? maxRowIndex : -1;
+        //return -1;
+    }
+
+    static int rowMaxTestBetter(int[][] arr) {
+        int maxRowIndex = -1;
+        int maxCount = 0;
+        int res[] = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            int count = 0;
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] == 1) {
+                    count++;
+                }
+                res[i] = count;
+            }
+            if (count > maxCount) {
+                maxCount = count;
+                maxRowIndex = i;
+            }
         }
-        return -1;
+        return maxRowIndex != -1 ? maxRowIndex : -1;
     }
 
     /* static int rowWithMax1s(int[][] arr) {
