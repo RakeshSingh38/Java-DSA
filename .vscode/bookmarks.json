@@ -514,6 +514,16 @@
 					"label": "Find the maximum value's index in the res array using built-in function ✅✅✅"
 				}
 			]
+		},
+		{
+			"path": "Chapter 7 String methods/_16_Reverse_String_using_stack.java",
+			"bookmarks": [
+				{
+					"line": 45,
+					"column": 46,
+					"label": "Reverse an array of characters using a stack ✅✅✅"
+				}
+			]
 		}
 	]
 }

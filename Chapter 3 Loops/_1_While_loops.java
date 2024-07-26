@@ -6,11 +6,11 @@ public class _1_While_loops {
             System.out.println(counter);
             counter++;
         }
-        
+
         // ->     Infinite loop
         // while (true) {
         //     System.out.println("Hiiiiiiii");
-            
+
         // }
     }
 }

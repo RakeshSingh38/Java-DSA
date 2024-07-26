@@ -30,5 +30,17 @@ public class _5_forEach {
         for (int i = 0; i < cars.length; i++) {
             System.out.print(cars[i] + " ");
         }
+
+        StringBuilder sb = new StringBuilder();
+        for (String i : cars) {
+            sb.append(i + " ");
+        }
+        System.out.println("Joining elements in StringBuilder:  " + sb.toString());
+        System.out.println(sb.charAt(0));
+
+        String str = "rakesh";
+        str = "singh";
+
+        System.out.println(str);
     }
 }

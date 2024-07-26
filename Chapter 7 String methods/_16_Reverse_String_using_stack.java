@@ -26,28 +26,37 @@ public class _16_Reverse_String_using_stack {
         System.out.println(Arrays.toString(str));
         System.out.println(str);
         //reverseString(str);
-        reverseUsingTwoPointer(str);
+        System.out.println("Reverse String using Stack");
+        reverseStringUsingStack(str);
+        System.out.println(Arrays.toString(str));
         //for (char i = 0; i < str.length; i++) {
         //}
         System.out.println("\nNew String String");
         System.out.println(new String(str));
         //System.out.println(Arrays.toString(str));
-        //System.out.println(Arrays.toString(str));
+        //reverse(str);
+        //reverse(str);
+        reverseUsingTwoPointer(str);
+
+        System.out.println("Reverse String using two pointer");
+        reverseUsingTwoPointer(str);
+        System.out.println(Arrays.toString(str));
     }
 
-    @SuppressWarnings("unused")
-    private static void reverseString(char[] str) {
+    // note     Reverse an array of characters using a stack
+    private static void reverseStringUsingStack(char[] str) {
         Stack<Character> stack = new Stack<>();
         for (char i = 0; i < str.length; i++) {
             stack.push(str[i]);
         }
-
-        for (int i = 0; i < str.length; i++) {
+        System.out.println("ARR");
+        System.out.println(Arrays.toString(str)); // [ H,e,l,l,o ]
+        for (int i = 0; i < str.length; i++)
             if (!stack.isEmpty()) {
                 str[i] = stack.peek();
                 stack.pop();
             }
-        }
+
         //for (int i = 0; i < str.length; i++) {
         //    if(!stack.isEmpty()){
         //        System.out.println(stack);
@@ -67,6 +76,7 @@ public class _16_Reverse_String_using_stack {
         //        }
     }
 
+    // tip      most efficient way to reverse the char array
     public static void reverseUsingTwoPointer(char[] s) {
         int start = 0;
         int end = s.length - 1;

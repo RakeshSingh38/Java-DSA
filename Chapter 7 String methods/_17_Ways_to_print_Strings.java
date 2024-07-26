@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.Stack;
+
 
 public class _17_Ways_to_print_Strings {
 
@@ -29,62 +29,17 @@ public class _17_Ways_to_print_Strings {
         for (char c : str) {
             sb.append(c);
         }
+        System.out.println("StringBuilder");
         System.out.println(new String(sb));
 
         //reverseString(str);
-        reverseUsingTwoPointer(str);
+        //reverseUsingTwoPointer(str);
         //for (char i = 0; i < str.length; i++) {
         //}
         System.out.println("\nNew String String");
         System.out.println(new String(str));
         //System.out.println(Arrays.toString(str));
         //System.out.println(Arrays.toString(str));
-    }
-
-    @SuppressWarnings("unused")
-    private static void reverseString(char[] str) {
-        Stack<Character> stack = new Stack<>();
-        for (char i = 0; i < str.length; i++) {
-            stack.push(str[i]);
-        }
-
-        for (int i = 0; i < str.length; i++) {
-            if (!stack.isEmpty()) {
-                str[i] = stack.peek();
-                stack.pop();
-            }
-        }
-        //for (int i = 0; i < str.length; i++) {
-        //    if(!stack.isEmpty()){
-        //        System.out.println(stack);
-        //        stack.pop();
-        //    }
-        //}
-    }
-
-    public static void reverse(char[] c) {
-        for (int i = c.length - 1; i >= 0; i--) {
-            Character.toString(c[i]);
-        }
-
-        //        for (int i = c.length - 1; i >= 0; i--) {
-        //            System.out.print(c[i] + " ");
-        //
-        //        }
-    }
-
-    public static void reverseUsingTwoPointer(char[] s) {
-        int start = 0;
-        int end = s.length - 1;
-
-        while (start <= end) {
-            char temp = s[start];
-            s[start] = s[end];
-            s[end] = temp;
-            start++;
-            end--;
-        }
-
     }
 
 }

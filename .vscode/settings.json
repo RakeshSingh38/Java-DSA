@@ -20,7 +20,6 @@
         "Chapter 13 Hashing",
         "Chapter 14 Collections Framework",
         "Chapter 14 Collections Framework\\Practise",
-        "Chapter 14 Collections Framework\\Vehicle abstract class",
         "Chapter 15 Bit Manipulation",
         "Chapter 2 conditional operations",
         "Chapter 2 conditional operations\\Q",
@@ -57,12 +56,13 @@
         "Chapter 9 Linked List",
         "Chapter 9 Linked List\\Singly LinkedList",
         "Java PY",
+        "LeetCode Q",
         "Practise",
         "Prep",
         "Prep\\Medium",
         "tempp",
         "tempp\\Capabl Questions",
-        "LeetCode Q"
+        "Chapter 16 Sorting"
     ],
     "java.project.outputPath": "bin",
     "C_Cpp.errorSquiggles": "enabled",
@@ -73,5 +73,6 @@
         "*.ipynb": "python",
         "*.css": "tailwindcss",
         "iostream": "cpp"
-    }
+    },
+    "java.format.settings.url": ".vscode/java-formatter.xml"
 }

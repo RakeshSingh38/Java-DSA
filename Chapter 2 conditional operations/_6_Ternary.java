@@ -4,5 +4,8 @@ public class _6_Ternary {
 
         String ans = (a > b) ? "a is greater" : "b is greater";
         System.out.println(ans);
+
+        // or
+        System.out.println((a > b) ? "a is greater" : "b is greater");
     }
 }

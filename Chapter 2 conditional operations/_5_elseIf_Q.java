@@ -9,5 +9,9 @@ public class _5_elseIf_Q {
             System.out.println("Largest number is C");
 
         }
+
+        // or we can also right it as
+        System.out.println(
+                a >= b && a >= c ? "Largest number is a" : (b >= c ? "Largest number is b" : "Largest number is C"));
     }
 }

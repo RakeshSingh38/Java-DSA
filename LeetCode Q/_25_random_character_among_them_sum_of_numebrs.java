@@ -38,6 +38,8 @@ public class _25_random_character_among_them_sum_of_numebrs {
 
         // now i will trim the spaces and split the string into an array of numbers
         String[] numbers = str.trim().split("\\s+");
+        // see      For example, if str was "  123  456  789  ", after trim() it would become "123  456  789", and after split("\\s+") it would become an array ["123", "456", "789"].
+
         //System.out.println(Arrays.toString(numbers));
         int sum = 0;
         for (String num : numbers) {

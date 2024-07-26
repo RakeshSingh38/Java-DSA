@@ -7,7 +7,6 @@ public class _1_Subtract_product_minus_sum {
     public static void main(String[] args) {
         int n = 234;
         System.out.println(subtractProductAndSum(n));
-
     }
 
     public static int subtractProductAndSum(int n) {
