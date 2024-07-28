@@ -21,6 +21,7 @@
         "Chapter 14 Collections Framework",
         "Chapter 14 Collections Framework\\Practise",
         "Chapter 15 Bit Manipulation",
+        "Chapter 16 Sorting",
         "Chapter 2 conditional operations",
         "Chapter 2 conditional operations\\Q",
         "Chapter 3 Loops",
@@ -61,8 +62,7 @@
         "Prep",
         "Prep\\Medium",
         "tempp",
-        "tempp\\Capabl Questions",
-        "Chapter 16 Sorting"
+        "tempp\\Capabl Questions"
     ],
     "java.project.outputPath": "bin",
     "C_Cpp.errorSquiggles": "enabled",

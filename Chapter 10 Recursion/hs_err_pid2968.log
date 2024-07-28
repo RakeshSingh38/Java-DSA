@@ -1,0 +1,109 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 65536 bytes. Error detail: Failed to commit metaspace.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (virtualSpaceNode.cpp:112), pid=2968, tid=1940
+#
+# JRE version: Java(TM) SE Runtime Environment (22.0.2+9) (build 22.0.2+9-70)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (22.0.2+9-70, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dapplication.home=C:\Program Files\Java\jdk-22 --add-modules=ALL-DEFAULT -Xms8m -Djdk.module.main=jdk.compiler jdk.compiler/com.sun.tools.javac.Main CheckMemorySettings.java
+
+Host: AMD Ryzen 5 5600H with Radeon Graphics         , 12 cores, 15G,  Windows 11 , 64 bit Build 22621 (10.0.22621.3672)
+Time: Sun Jul 28 21:03:26 2024 India Standard Time elapsed time: 0.181319 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000018f41431ac0):  JavaThread "main"             [_thread_in_vm, id=1940, stack(0x0000005758700000,0x0000005758800000) (1024K)]
+
+Stack: [0x0000005758700000,0x0000005758800000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6e26e9]  (no source info available)
+V  [jvm.dll+0x875753]  (no source info available)
+V  [jvm.dll+0x877b7e]  (no source info available)
+V  [jvm.dll+0x878253]  (no source info available)
+V  [jvm.dll+0x27fc86]  (no source info available)
+V  [jvm.dll+0x87139e]  (no source info available)
+V  [jvm.dll+0x685755]  (no source info available)
+V  [jvm.dll+0x1e3cdc]  (no source info available)
+V  [jvm.dll+0x1e3aae]  (no source info available)
+V  [jvm.dll+0x6880a8]  (no source info available)
+V  [jvm.dll+0x224f6c]  (no source info available)
+V  [jvm.dll+0x68616e]  (no source info available)
+V  [jvm.dll+0x690408]  (no source info available)
+V  [jvm.dll+0x2151c1]  (no source info available)
+V  [jvm.dll+0x21564a]  (no source info available)
+V  [jvm.dll+0x216071]  (no source info available)
+V  [jvm.dll+0x20b3ae]  (no source info available)
+V  [jvm.dll+0x5c4a8f]  (no source info available)
+V  [jvm.dll+0x7ec826]  (no source info available)
+V  [jvm.dll+0x47ce96]  (no source info available)
+V  [jvm.dll+0x482d48]  (no source info available)
+C  [java.dll+0x1951]  (no source info available)
+C  0x0000018f52e3cfc7  (no source info available)
+
+The last pc belongs to native method entry point (kind = native) (printed below).
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.lang.ClassLoader.defineClass2(Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/nio/ByteBuffer;IILjava/security/ProtectionDomain;Ljava/lang/String;)Ljava/lang/Class;+0 java.base@22.0.2
+J 494 c1 java.lang.ClassLoader.defineClass(Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/ProtectionDomain;)Ljava/lang/Class; java.base@22.0.2 (108 bytes) @ 0x0000018f4b9a52f4 [0x0000018f4b9a4ba0+0x0000000000000754]
+J 467 c1 java.security.SecureClassLoader.defineClass(Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/CodeSource;)Ljava/lang/Class; java.base@22.0.2 (12 bytes) @ 0x0000018f4b996c8c [0x0000018f4b996bc0+0x00000000000000cc]
+J 424 c1 jdk.internal.loader.BuiltinClassLoader.defineClass(Ljava/lang/String;Ljdk/internal/loader/BuiltinClassLoader$LoadedModule;)Ljava/lang/Class; java.base@22.0.2 (162 bytes) @ 0x0000018f4b9809c4 [0x0000018f4b97f480+0x0000000000001544]
+J 301 c1 jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(Ljava/lang/String;Z)Ljava/lang/Class; java.base@22.0.2 (143 bytes) @ 0x0000018f4b951914 [0x0000018f4b9513e0+0x0000000000000534]
+J 338 c1 jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; java.base@22.0.2 (40 bytes) @ 0x0000018f4b960cc4 [0x0000018f4b960ae0+0x00000000000001e4]
+J 318 c1 java.lang.ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; java.base@22.0.2 (7 bytes) @ 0x0000018f4b958054 [0x0000018f4b957f40+0x0000000000000114]
+v  ~StubRoutines::call_stub 0x0000018f52e3100d
+j  com.sun.tools.javac.tree.TreeMaker.<init>(Lcom/sun/tools/javac/util/Context;)V+57 jdk.compiler@22.0.2
+j  com.sun.tools.javac.tree.TreeMaker.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/tree/TreeMaker;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Enter.<init>(Lcom/sun/tools/javac/util/Context;)V+50 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Enter.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Enter;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.DeferredAttr.<init>(Lcom/sun/tools/javac/util/Context;)V+66 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.DeferredAttr.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/DeferredAttr;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.AttrRecover.<init>(Lcom/sun/tools/javac/util/Context;)V+33 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.AttrRecover.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/AttrRecover;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Resolve.<init>(Lcom/sun/tools/javac/util/Context;)V+296 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Resolve.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Resolve;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Check.<init>(Lcom/sun/tools/javac/util/Context;)V+96 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Check.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Check;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Modules.<init>(Lcom/sun/tools/javac/util/Context;)V+119 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Modules.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Modules;+19 jdk.compiler@22.0.2
+j  com.sun.tools.javac.code.Symtab.<init>(Lcom/sun/tools/javac/util/Context;)V+1041 jdk.compiler@22.0.2
+j  com.sun.tools.javac.code.Symtab.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/code/Symtab;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Attr.<init>(Lcom/sun/tools/javac/util/Context;)V+89 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Attr.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Attr;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Annotate.<init>(Lcom/sun/tools/javac/util/Context;)V+80 jdk.compiler@22.0.2
+j  com.sun.tools.javac.comp.Annotate.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/comp/Annotate;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.jvm.ClassReader.<init>(Lcom/sun/tools/javac/util/Context;)V+152 jdk.compiler@22.0.2
+j  com.sun.tools.javac.jvm.ClassReader.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/jvm/ClassReader;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.code.ClassFinder.<init>(Lcom/sun/tools/javac/util/Context;)V+46 jdk.compiler@22.0.2
+j  com.sun.tools.javac.code.ClassFinder.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/code/ClassFinder;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.main.JavaCompiler.<init>(Lcom/sun/tools/javac/util/Context;)V+130 jdk.compiler@22.0.2
+j  com.sun.tools.javac.main.JavaCompiler.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/main/JavaCompiler;+20 jdk.compiler@22.0.2
+j  com.sun.tools.javac.processing.JavacProcessingEnvironment.<init>(Lcom/sun/tools/javac/util/Context;)V+125 jdk.compiler@22.0.2
+j  com.sun.tools.javac.processing.JavacProcessingEnvironment.instance(Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/processing/JavacProcessingEnvironment;+19 jdk.compiler@22.0.2
+j  com.sun.tools.javac.api.BasicJavacTask.initPlugins(Ljava/util/Set;)V+148 jdk.compiler@22.0.2
+j  com.sun.tools.javac.main.Main.compile([Ljava/lang/String;Lcom/sun/tools/javac/util/Context;)Lcom/sun/tools/javac/main/Main$Result;+475 jdk.compiler@22.0.2
+j  com.sun.tools.javac.main.Main.compile([Ljava/lang/String;)Lcom/sun/tools/javac/main/Main$Result;+15 jdk.compiler@22.0.2
+j  com.sun.tools.javac.Main.compile([Ljava/lang/String;)I+12 jdk.compiler@22.0.2
+j  com.sun.tools.javac.Main.main([Ljava/lang/String;)V+1 jdk.compiler@22.0.2
+v  ~StubRoutines::call_stub 0x0000018f52e3100d
+native method entry point (kind = native)  [0x0000018f52e3cba0, 0x0000018f52e3d6c0]  2848 bytes
