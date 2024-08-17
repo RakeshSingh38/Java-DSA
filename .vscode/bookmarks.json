@@ -24,7 +24,7 @@
 			"path": "Chapter 3 Loops/Q/_5_pattern_Q_space_row.java",
 			"bookmarks": [
 				{
-					"line": 29,
+					"line": 35,
 					"column": 80,
 					"label": "pattern spaces acquired"
 				}
@@ -522,6 +522,26 @@
 					"line": 45,
 					"column": 46,
 					"label": "Reverse an array of characters using a stack ✅✅✅"
+				}
+			]
+		},
+		{
+			"path": "Chapter 1 Basics/_8_Type_Promotion.java",
+			"bookmarks": [
+				{
+					"line": 48,
+					"column": 54,
+					"label": " list of ASCII values from 1 to 127"
+				}
+			]
+		},
+		{
+			"path": "Chapter 4 functions/_11_reference_value.java",
+			"bookmarks": [
+				{
+					"line": 12,
+					"column": 16,
+					"label": "difference between Java and C++ references and pointers ✅✅✅"
 				}
 			]
 		}

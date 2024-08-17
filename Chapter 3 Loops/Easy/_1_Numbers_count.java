@@ -37,7 +37,7 @@ public class _1_Numbers_count {
         return count;
     }
 
-    static int count2(double n) {
+    static int count2(int n) {
         return (int) (Math.log10(n) + 1);
     }
 }

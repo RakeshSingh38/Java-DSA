@@ -14,8 +14,6 @@ public class _26_gfg_potd_remove_duplicates {
             if (set.contains(c))
                 continue;
 
-
-
             // tip      This ensures that only unique characters are added to the set 
             set.add(c);
 

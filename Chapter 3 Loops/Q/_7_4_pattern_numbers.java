@@ -16,7 +16,7 @@ public class _7_4_pattern_numbers {
             if (i <= n / 2) {
                 val = i;
             } else {
-                val = n + 1 - i;
+                val = n - i + 1;
             }
             /*  // with these change i got
             //           1 

@@ -1,4 +1,4 @@
-
+// w        nothing special here
 // imp      it only takes a single value
 public class _6_soring_sentence {
 

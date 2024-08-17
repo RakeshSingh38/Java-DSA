@@ -3,7 +3,13 @@
 import java.util.Scanner;
 
 //3 Loops.Q;
-
+/* 
+    *
+   **
+  ***
+ ****
+*****
+ */
 public class _5_pattern_Q_space_row {
     public static void main(String[] args) {
 
@@ -13,11 +19,11 @@ public class _5_pattern_Q_space_row {
         int row = 1;
         //int star = 1;
         int star = row;
-        int space = n-1;
+        int space = n - 1;
 
         while (row <= n) {
-//             while (true) {
-//            if (row > n) break;
+            //             while (true) {
+            //            if (row > n) break;
             int i = 1;
             // star
             while (i <= space) {

@@ -6,6 +6,7 @@ public class _6_Find_numbers_with_even_nums_of_digits {
         double number = (int) Math.log10(12) + 1;
         System.out.println(number);
 
+        System.out.println(digits(4535));
     }
 
     public static int findNumbers(int[] nums) {
