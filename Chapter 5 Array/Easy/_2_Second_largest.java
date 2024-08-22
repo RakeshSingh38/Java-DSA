@@ -1,19 +1,22 @@
+//import java.util.Arrays;
+// Q       Second largest and Second Smallest element in an array
+
 import java.util.Arrays;
 
 public class _2_Second_largest {
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         int n = a.length;
-        int[] ans = SecondlargestElement(a, n);
+        int[] ans = (SecondlargestElement(a, n));
         System.out.print("Second Largest is "+Arrays.toString(ans) + "\nSecond Smallest is ");
 
-        System.out.print(Arrays.toString(secondSmallest(a, n)));
+        System.out.print((secondSmallest(a, n)));
     }
 
     static int[] SecondlargestElement(int[] a, int n) {
         int largest = a[0];
         int secondLargest = -1;
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < n; i++) {
             //  to find second largest
             if (a[i] > largest) {
                 secondLargest = largest;
@@ -24,13 +27,13 @@ public class _2_Second_largest {
             }
         }
         //System.out.println(largest);
-        return new int[] { secondLargest };
+        return  new int[] { secondLargest };
     }
 
-    static int[] secondSmallest(int[] a, int n) {
+    static int secondSmallest(int[] a, int n) {
         int smallest = Integer.MAX_VALUE;
         int secondSmallest = a[0];
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < n; i++) {
             //     to find second smallest
             if (a[i] < smallest) {
                 secondSmallest = smallest;
@@ -40,6 +43,6 @@ public class _2_Second_largest {
                 secondSmallest = a[i];
             }
         }
-        return new int[] { secondSmallest };
+        return secondSmallest;
     }
 }

@@ -28,3 +28,9 @@ Eg 852 == 162
         so i have to change the name of the file to execute the code
         // i changed the name of the file to ShopforClass.java in Class folder of Chapter 8 Object Oriented Programming
         // and it worked fine 
+
+// imp             In java as Strings are immutable so we cant sort the string directly
+//                  so we have to convert the string to char array and then sort it
+
+char[] chars = s.toCharArray();
+Arrays.sort(chars);

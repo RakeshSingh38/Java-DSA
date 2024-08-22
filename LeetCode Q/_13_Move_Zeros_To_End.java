@@ -3,13 +3,18 @@
 
 // 283. Move Zeroes
 
+// tip    if its !=0 then we swap it with the non zero element in the array and by doing this process we are effectively moving all non zero elements to the start of the array.
+
+// Time complexity : O(n)
+
+// see          or we can find the count of non zero elements and then fill the rest of the array with zeros , it will take 2 loops one to count the non zero elements and another to fill the rest of the array with zeros
 import java.util.Arrays;
 
 public class _13_Move_Zeros_To_End {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1,0,3,2,0 };
+        int[] arr = { 1, 0, 3, 2, 0 };
         System.out.println(Arrays.toString(arr));
         System.out.println("1st");
         //removeZeroes(arr);
@@ -21,7 +26,10 @@ public class _13_Move_Zeros_To_End {
         //r0(arr);
 
         System.out.println("4th");
-        r0(arr);
+        //r0(arr);
+
+        // see      better approach
+        moveZeroesBetter(arr);
         System.out.println(Arrays.toString(arr));
 
     }

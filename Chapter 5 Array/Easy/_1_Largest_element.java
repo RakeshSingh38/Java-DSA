@@ -12,7 +12,9 @@ public class _1_Largest_element {
     }
 
     static int largestElement(int[] arr, int n) {
-        int largest = arr[0];
+        //int largest = arr[0];
+        int largest = Integer.MIN_VALUE;
+
         int secondLargest = -1;
         int temp = 0;
         for (int i = 0; i < arr.length; i++) {

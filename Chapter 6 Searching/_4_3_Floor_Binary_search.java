@@ -3,15 +3,16 @@ import java.util.Arrays;
 // tip    floor means greatest number smaller or equal to target
 
 public class _4_3_Floor_Binary_search {
-    // binary search requires sorted array
+    // imp      binary search requires sorted array
     // Eg : dictionary its an sorted way to describe words
-    // we go alphabatically
-
-    //import java.util.Arrays;
+    // r       we go alphabatically
 
     public static void main(String[] args) {
         int[] arr = { 23, 5, 6, 12, 67, 65 };
+
+        // w      better avoid this because it reduces the search space 
         Arrays.sort(arr);
+
         System.out.println();
         int target = 7;
         System.out.println("Index found at " + floor_BinarySearch(arr, target) + " and target is " + target);
@@ -19,6 +20,8 @@ public class _4_3_Floor_Binary_search {
         System.out.println("| |  |  |  |  |");
         System.out.println("0 1  2  3  4  5");
         System.out.println();
+
+        // test  
     }
 
     static int floor_BinarySearch(int[] arr, int target) {
