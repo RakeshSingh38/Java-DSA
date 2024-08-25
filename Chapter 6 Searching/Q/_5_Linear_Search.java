@@ -1,4 +1,4 @@
-public class _hey {
+public class _5_Linear_Search {
     public static void main(String[] args) {
         int[] nums = {1, 2,0, 4, 3, 44, 51, 43, 344};
         int target = 51;

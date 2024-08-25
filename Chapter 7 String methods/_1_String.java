@@ -5,8 +5,8 @@
 public class _1_String {
     public static void main(String[] args) {
         String s = "Rakesh Singh";
-        System.out.println(s.charAt(6)); // outputs space
-        System.out.println(s.charAt(7)); // outputs space
+        System.out.println(s.charAt(6)+"space"); // outputs space
+        System.out.println(s.charAt(7) ); // outputs S
 
 
         String name = "rakesh";

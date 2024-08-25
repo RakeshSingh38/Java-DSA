@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 public class _2_multi_Dimension {
     // ->     an array of arrays
-
     // imp   A multidimensional array is an array of arrays.
 
     //      Multidimensional arrays are useful when you want to store data as a tabular form,

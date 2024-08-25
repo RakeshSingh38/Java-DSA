@@ -3,8 +3,8 @@ import java.util.*;
 public class _7_Sum_of_upper_and_lower_matrix {
     public static void main(String[] args) {
         int arr[][] = { { 6, 5, 4 },
-                { 1, 2, 5 },
-                { 7, 9, 7 } };
+                        { 1, 2, 5 },
+                        { 7, 9, 7 } };
 
         /* 
         for upper

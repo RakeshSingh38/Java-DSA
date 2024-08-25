@@ -19,6 +19,8 @@ public class _2_Group_Anagrams {
             String curr = strs[i];
             char[] currChar = curr.toCharArray();
             Arrays.sort(currChar);
+            Arrays.sort(curr.toCharArray());
+
             String sorted = new String(currChar);
             if (map.containsKey(sorted)) {
                 map.get(sorted).add(curr);

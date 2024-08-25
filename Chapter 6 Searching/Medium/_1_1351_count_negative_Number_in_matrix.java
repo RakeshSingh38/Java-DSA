@@ -10,11 +10,13 @@ public class _1_1351_count_negative_Number_in_matrix {
     static int negativeNUmber(int[][] grid) {
         int count = 0;
         for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
+            for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] < 0) {
                     // tip      using this makes the code more efficient
                     count += grid[i].length - j; // since the array is sorted, as soon as first negative is found, remaining can be counted instantly and no need to traverse any more.
 
+                    // see     this break is important to stop the loop as soon as we find first negative , as we instantly count the remaining negative numbers. 
+                    break;
                     // or
                     //count++;
                 }

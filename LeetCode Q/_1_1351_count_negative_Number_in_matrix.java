@@ -10,8 +10,14 @@ public class _1_1351_count_negative_Number_in_matrix {
         int count = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
+                //if (grid[i][j] < 0) {
+                //    count++;
+                //}
                 if (grid[i][j] < 0) {
-                    count++;
+                    count += grid[i].length - j; // since the array is sorted, as soon as first negative is found, remaining can be counted
+
+                    // see   this break is important to stop the loop as soon as we find first negative, as we instant
+                    break;
                 }
             }
         }
