@@ -14,7 +14,7 @@ public class _13_Move_Zeros_To_End {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1, 0, 3, 2, 0 };
+        int[] arr = { 1, 3, 2, 0, 2, 0 };
         System.out.println(Arrays.toString(arr));
         System.out.println("1st");
         //removeZeroes(arr);
@@ -23,26 +23,33 @@ public class _13_Move_Zeros_To_End {
         //removeZeroes(arr);
         System.out.println();
         // r        optimal soln
-        //r0(arr);
+        //moveZeroes_Optimize(arr);
 
         System.out.println("4th");
-        //r0(arr);
+        moveZeroes_Optimize(arr);
+        //System.out.println(Arrays.toString(arr));
 
         // see      better approach
-        moveZeroesBetter(arr);
-        System.out.println(Arrays.toString(arr));
+        //moveZeroes_Better(arr);
 
     }
 
-    static void r0(int[] arr) {
+    static void moveZeroes_Optimize(int[] arr) {
         // r        O N and O 1
+        // r        Optimized 
+
         int s = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
+
+                // tip    we are internally modifying the array
+                //        the 0's in the array wil be replaced with non zero Elements
                 arr[s] = arr[i];
                 s++;
             }
         }
+
+        System.out.println(Arrays.toString(arr));
         //System.out.println(s);
         //System.out.println(Arrays.toString(arr));
         //int count = 0;
@@ -56,7 +63,7 @@ public class _13_Move_Zeros_To_End {
 
     }
 
-    static void moveZeroesBetter(int[] arr) {
+    static void moveZeroes_Better(int[] arr) {
         // two pointer approach
         // r        Better 
         int j = 0, i = 0, n = arr.length;

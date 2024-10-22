@@ -544,6 +544,16 @@
 					"label": "difference between Java and C++ references and pointers ✅✅✅"
 				}
 			]
+		},
+		{
+			"path": "LeetCode Q/_29_Plus_one.java",
+			"bookmarks": [
+				{
+					"line": 13,
+					"column": 20,
+					"label": "To print Contents of int[] function we need to use Arrays.toString() ✅✅✅"
+				}
+			]
 		}
 	]
 }
