@@ -8,7 +8,9 @@ public class _28_count_Prime {
         if (n <= 1) {
             return 0;
         }
-
+        /*
+         * ye use kr agr warning deta ki sc close kr 👍
+         */
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime, true);
 
