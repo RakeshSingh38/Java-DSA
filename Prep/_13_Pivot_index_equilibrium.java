@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class _13_Pivot_index_equilibrium {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class _13_Pivot_index_equilibrium {
     private static int pivotIndex(int[] arr) {
         int[] pf = prefixSum(arr);
         int ans = 0;
+        System.out.println(Arrays.toString(pf));
         int N = arr.length;
         for (int i = 1; i < arr.length - 1; i++) {
             int leftSum = pf[i - 1];
@@ -38,7 +40,6 @@ public class _13_Pivot_index_equilibrium {
         for (int i = 1; i < n; i++) {
             // 
             pf[i] = pf[i - 1] + arr[i];
-
             // tip      for simplicity 
             //arr[i] = arr[i - 1] + arr[i];
         }
