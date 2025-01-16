@@ -1,8 +1,9 @@
-public class Main {
-    //class Main_constructor {
+public class main {
+    class Main_constructor {
         // overloaded constructor
         // they have same name but different parameters
-        public static void main(String[] args) { //String shopType, String dish, String drink, int price
+        public static void main(String[] args) {
+            //String shopType, String dish, String drink, int price
             Shop newShop = new Shop("Non-veg");
 
             Restraunt newShop1 = new Restraunt("Non-veg", "Chicken");
@@ -39,5 +40,5 @@ public class Main {
 
             //newShop.shopType = "Restaurant";
         }
-    //}
+    }
 }
