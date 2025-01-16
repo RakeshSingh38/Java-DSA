@@ -9,7 +9,7 @@ public class _10_Prefix_sum {
 
         System.out.println("\nOptimal approach is ✅✅");
         int[] optimal = prefixSumOptimal(arr);
-0        System.out.println(Arrays.toString(optimal) + "\n");
+        System.out.println(Arrays.toString(optimal) + "\n");
     }
 
     // ->   i took 3 things such as array and size
