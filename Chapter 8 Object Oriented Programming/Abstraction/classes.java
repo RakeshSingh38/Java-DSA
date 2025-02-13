@@ -35,9 +35,6 @@ public class classes {
 
         // we cannot create objects of an abstract class
 
-
-
-
         // To access the abstract class, it must be inherited from another class
         var myCat = new Cat();
         myCat.animalSound();

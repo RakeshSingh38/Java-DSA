@@ -1,4 +1,49 @@
-// {
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "_1_Largest_element",
+            "request": "launch",
+            "mainClass": "_1_Largest_element",
+            "projectName": "Java PY_4aae65db"
+        },
+        {
+            "type": "java",
+            "name": "classes",
+            "request": "launch",
+            "mainClass": "classes",
+            "projectName": "Java PY_4aae65db"
+        },
+        {
+            "type": "java",
+            "name": "_32_String_swap",
+            "request": "launch",
+            "mainClass": "_32_String_swap",
+            "projectName": "Java PY_4aae65db"
+        },
+        {
+            "type": "java",
+            "name": "_13_Pivot_index_equilibrium",
+            "request": "launch",
+            "mainClass": "_13_Pivot_index_equilibrium",
+            "projectName": "Java PY_4aae65db"
+        },
+        {
+            "type": "java",
+            "name": "tessst",
+            "request": "launch",
+            "mainClass": "tessst",
+            "projectName": "Java PY_4aae65db"
+        },
+        {
+            "type": "java",
+            "name": "tessst",
+            "request": "launch",
+            "mainClass": "temp.tessst",
+            "projectName": "Java PY_4aae65db"
+        }
+    ]
+} // {
 //     "configurations": [
 //         {
 //             "type": "java",

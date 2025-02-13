@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class _13_Pivot_index_equilibrium {
     public static void main(String[] args) {
         //int[] arr = { -2, 6, 3, 4 };
@@ -38,7 +37,6 @@ public class _13_Pivot_index_equilibrium {
         pf[0] = arr[0];
         // above can be removed if used tip comment and return arr;
         for (int i = 1; i < n; i++) {
-            // 
             pf[i] = pf[i - 1] + arr[i];
             // tip      for simplicity 
             //arr[i] = arr[i - 1] + arr[i];
@@ -47,3 +45,4 @@ public class _13_Pivot_index_equilibrium {
         return pf;
     }
 }
+
