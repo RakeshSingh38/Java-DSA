@@ -7,7 +7,7 @@ public class _1_Largest_element {
         //int[] arr = { 1, 2, 4, 7, 7, 5 };
         int[] arr = { 1, 2, 3, 4, 5 };
         //System.out.println(Arrays.toString(arr));
-        System.out.print(" " + largestElement(arr, 3));
+        System.out.print("largest is = " + largestElement(arr, 3));
         //Arrays.sort(arr);
     }
 
@@ -15,20 +15,14 @@ public class _1_Largest_element {
         //int largest = arr[0];
         int largest = Integer.MIN_VALUE;
 
-        int secondLargest = -1;
-        int temp = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > largest) {
                 // imp       main logic
-                secondLargest = largest;
                 largest = arr[i];
-            } else if (arr[i] > secondLargest && arr[i] != largest) {
-                secondLargest = arr[i];
             }
-            temp = Math.max(largest, secondLargest);
         }
-        System.out.println(temp);
-        System.out.print("largest is " + largest + "\nSecond largest is ");
-        return secondLargest;
+        //System.out.println(temp);
+        //System.out.print("largest is " + largest);
+        return largest;
     }
 }
