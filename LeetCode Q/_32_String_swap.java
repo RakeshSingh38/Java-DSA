@@ -19,7 +19,7 @@ public class _32_String_swap {
                 } else if (second == -1) {
                     second = i;
                 } else {
-                    return false; // More than 2 mismatches → can't swap
+                    return false; // More than 2 mismatches → can't swap 
                 }
             }
         }
